@@ -1,0 +1,237 @@
+/*************** 1. Sass Variables ***************/
+/*************** 2.Mixins ***************/
+/*************** 1. Open Sans Google Font ***************/
+@font-face {
+  font-family: 'open_sansbold';
+  src: url("../fonts/opensans/opensans-bold-webfont.woff2") format("woff2"), url("../fonts/opensans/opensans-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'open_sanslight';
+  src: url("../fonts/opensans/opensans-light-webfont.woff2") format("woff2"), url("../fonts/opensans/opensans-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'open_sansregular';
+  src: url("../fonts/opensans/opensans-regular-webfont.woff2") format("woff2"), url("../fonts/opensans/opensans-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'open_sanssemibold';
+  src: url("../fonts/opensans/opensans-semibold-webfont.woff2") format("woff2"), url("../fonts/opensans/opensans-semibold-webfont.woff") format("woff");
+  font-weight: 700;
+  font-style: normal; }
+.mailbox .inbox-header {
+  background: #ecf0f3;
+  -webkit-border-radius: 0 3px 0 0;
+  -moz-border-radius: 0 3px 0 0;
+  border-radius: 0 3px 0 0;
+  padding: 15px;
+  min-height: 64px; }
+.mailbox h2.inbox-title {
+  margin: 0;
+  padding: 0;
+  font-size: 32px;
+  font-family: 'open_sanslight';
+  color: #000000;
+  line-height: 100%; }
+  .mailbox h2.inbox-title i {
+    font-size: 18px; }
+.mailbox .input-group .form-control {
+  font-size: 12px;
+  border-right: 0; }
+  .mailbox .input-group .form-control:focus {
+    border: 1px solid #fa5555;
+    border-right: 0; }
+.mailbox .input-group .input-group-btn .btn {
+  -webkit-border-radius: 0 3px 3px 0;
+  -moz-border-radius: 0 3px 3px 0;
+  border-radius: 0 3px 3px 0;
+  margin: 0; }
+.mailbox .inbox-actions {
+  padding: 10px 0;
+  border-bottom: 1px solid #ecf0f3; }
+  .mailbox .inbox-actions ul {
+    float: right; }
+    .mailbox .inbox-actions ul li {
+      float: left;
+      margin-right: 10px; }
+      .mailbox .inbox-actions ul li a {
+        display: block;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        border: 2px solid #dce3ea;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        border-radius: 4px; }
+        .mailbox .inbox-actions ul li a i {
+          color: #8da3b9;
+          font-size: 16px;
+          line-height: 26px; }
+        .mailbox .inbox-actions ul li a.red {
+          border: 2px solid #fa5555; }
+          .mailbox .inbox-actions ul li a.red i {
+            color: #fa5555; }
+        .mailbox .inbox-actions ul li a.green {
+          border: 2px solid #2bb776; }
+          .mailbox .inbox-actions ul li a.green i {
+            color: #2bb776; }
+        .mailbox .inbox-actions ul li a:hover {
+          border: 2px solid #000000; }
+          .mailbox .inbox-actions ul li a:hover i {
+            color: #000000; }
+
+.inbox-list {
+  margin-bottom: 20px; }
+  .inbox-list li {
+    border-bottom: 1px solid #e2e8ed; }
+    .inbox-list li .checkbox {
+      margin: 9px 10px 9px 15px;
+      float: left; }
+    .inbox-list li .star {
+      margin: 10px 15px 0 0;
+      float: left;
+      font-size: 15px; }
+      .inbox-list li .star.danger {
+        color: #e0734f; }
+      .inbox-list li .star.info {
+        color: #25a0e2; }
+      .inbox-list li .star.success {
+        color: #2bb776; }
+    .inbox-list li h5.title {
+      float: left;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
+      line-height: 120%;
+      margin: 10px 10px 0 10px;
+      padding: 0 0 0 8px;
+      font-size: 13px;
+      max-width: 120px; }
+    .inbox-list li a.subject {
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
+      line-height: 20px;
+      margin: 0;
+      padding: 8px 0;
+      font-size: 13px;
+      display: inherit; }
+    .inbox-list li h5.date {
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
+      line-height: 20px;
+      margin: 0;
+      padding: 8px 15px 8px 0;
+      text-align: right;
+      font-size: 13px; }
+    .inbox-list li:hover {
+      background: #f2f5f7; }
+    .inbox-list li.unread {
+      font-family: "open_sansbold"; }
+
+@media (max-width: 1200px) {
+  .inbox-list li {
+    padding: 8px 0; }
+    .inbox-list li a.subject {
+      padding: 0 15px; }
+    .inbox-list li h5.date {
+      padding: 0 15px 0 0; } }
+@media (max-width: 767px) {
+  .inbox-list li h5.title {
+    max-width: 110px; } }
+.mailbox-left {
+  border-right: 1px solid #d6dee6;
+  -webkit-border-radius: 3px 0 0 3px;
+  -moz-border-radius: 3px 0 0 3px;
+  border-radius: 3px 0 0 3px;
+  overflow: hidden;
+  position: relative; }
+  .mailbox-left .compose-btn-header {
+    min-height: 64px;
+    text-align: center;
+    background: #ecf0f3;
+    padding: 10px; }
+  .mailbox-left .btn-compose {
+    margin: 0 10%;
+    display: block;
+    text-transform: uppercase;
+    padding: 10px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    color: #ffffff;
+    background: #fa5555; }
+    .mailbox-left .btn-compose:hover {
+      background: #fa5555;
+      color: #ffffff; }
+
+@media (max-width: 767px) {
+  .mailbox-left {
+    margin-bottom: 15px; } }
+ul.inbox-menu {
+  padding-top: 20px; }
+  ul.inbox-menu li {
+    padding: 0 15px; }
+    ul.inbox-menu li a {
+      display: block;
+      padding: 5px 0;
+      color: #000000;
+      font-size: 13px; }
+      ul.inbox-menu li a i {
+        font-size: 14px;
+        margin-right: 10px;
+        line-height: 20px;
+        float: left; }
+    ul.inbox-menu li:hover {
+      background: #ecf0f3; }
+    ul.inbox-menu li.active {
+      font-family: "open_sansbold"; }
+
+ul.inbox-labels {
+  margin-bottom: 30px; }
+  ul.inbox-labels li {
+    padding: 0 15px; }
+    ul.inbox-labels li a {
+      display: block;
+      padding: 4px 0;
+      color: #000000;
+      font-size: 13px; }
+    ul.inbox-labels li:hover {
+      background: #ecf0f3; }
+    ul.inbox-labels li.heading {
+      padding: 10px 15px;
+      font-size: 13px;
+      text-transform: uppercase;
+      color: #ccd6e0; }
+      ul.inbox-labels li.heading:hover {
+        background: transparent; }
+  ul.inbox-labels .dot {
+    width: 8px;
+    height: 8px;
+    margin-top: 7px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    float: right; }
+    ul.inbox-labels .dot.green {
+      background: #2bb776; }
+    ul.inbox-labels .dot.red {
+      background: #fa5555; }
+    ul.inbox-labels .dot.yellow {
+      background: #ecc45f; }
+    ul.inbox-labels .dot.orange {
+      background: #e0734f; }
+    ul.inbox-labels .dot.blue {
+      background: #25a0e2; }
+    ul.inbox-labels .dot.pink {
+      background: #F782AA; }
+
+.separator {
+  margin: 20px 15px;
+  height: 1px;
+  background: #ecf0f3; }
+
+/*# sourceMappingURL=mail.css.map */

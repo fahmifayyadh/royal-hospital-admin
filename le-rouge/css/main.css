@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap');
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  position: relative;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font: normal 14px 'Open Sans', sans-serif;
+  color: #000000;
+  background: #ffffff;
+}
+
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+
+
+.m-0 {
+	margin: 0 !important;
+}
+
+/* Fixed Header */
+.fixed-header {
+	padding: 1.5rem 1rem;
+	background: #eaecf3;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	z-index: 1000;
+}
+.fixed-header-container {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	justify-content: space-between;
+}
+a.logo {
+	display: inline-flex;
+}
+a.logo img {
+	max-height: 48px;
+}
+
+
+/*********** Action Button Group ***********/
+.action-btn-group {
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-end;
+}
+.action-btn-group .action-btn {
+	background: #e0e6f1;
+	border: 2px solid #33a853;
+	color: #2c323c !important;
+	border-radius: 50px;
+	font-size: 14px;
+	font-weight: 600;
+	margin: 0 0 0 10px;
+	padding: 6px 25px;
+}
+.action-btn-group .action-btn:hover {
+	background: #33a853;
+	color: #ffffff;
+	text-decoration: none;
+}
+.action-btn-group .action-btn.buy-now {
+	border: 2px solid #ea7137;
+	background: #ea7137;
+	color: #ffffff !important;
+}
+.action-btn-group .action-btn.buy-now:hover {
+	background: #f19b1c;
+	color: #ffffff !important;
+}
+ 
+
+
+
+
+/* Mian Container */
+.main-container {
+	padding: 0;
+}
+.main-container section {
+	padding: 150px 0 0 0;
+	text-align: center;
+	color: #000000;
+}
+
+
+
+
+/*Buy Button*/
+.buy {
+	background: #f4d078;
+	background: -webkit-linear-gradient(top,#f7dfa5,#f0c14b);
+	background: linear-gradient(to bottom,#f7dfa5,#f0c14b);
+	color: #000000;
+	border: 1px solid;
+	border-color: #a88734 #9c7e31 #846a29;
+	font-size: 21px;
+	font-weight: 600;
+	box-shadow: 0 1px 0 rgba(255,255,255,.4) inset;
+	margin: 30px auto;
+	border-radius: 5px;
+	padding: 15px 50px;
+	text-align: center;
+}
+.buy:hover {
+	background: #f0c14b;
+	color: #111111;
+	text-decoration: none;
+}
+
+
+/*Theme Column*/
+a.preview-column {
+	border-radius: 4px;
+	margin-bottom: 100px;
+	padding: 10px;
+	background: #eaecf3;
+	display: block;
+}
+a.preview-column img.preview-img {
+	border-radius: 4px;
+	max-width: 100%;
+	display: block;
+	margin: 0 auto 0 auto;
+}
+
+
+
+
+.no-gutters {
+  margin-right: -0px;
+  margin-left: -0px;
+}
+.no-gutters > .col,
+.no-gutters > [class*="col-"] {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+

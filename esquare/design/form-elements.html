@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<meta name="description" content="Navigator Admin Panel" />
+		<meta name="keywords" content="Admin, Dashboard, Bootstrap3, Sass, transform, CSS3, HTML5, Web design, UI Design, Responsive Dashboard, Responsive Admin, Admin Theme, Best Admin UI, Bootstrap Theme, Wrapbootstrap, Bootstrap" />
+		<meta name="author" content="Bootstrap Gallery" />
+		<link rel="shortcut icon" href="img/favicon.ico">
+		<title>Esquare Admin Dashboard</title>
+		
+		<!-- Bootstrap CSS -->
+		<link href="css/bootstrap.css" rel="stylesheet" media="screen">
+
+		<!-- Animate CSS -->
+		<link href="css/animate.css" rel="stylesheet" media="screen">
+
+		<!-- Main CSS -->
+		<link href="css/main.css" rel="stylesheet" media="screen">
+
+		<!-- Alertify CSS -->
+		<link href="css/alertify/alertify.core.css" rel="stylesheet">
+		<link href="css/alertify/alertify.default.css" rel="stylesheet">
+
+		<!-- Summer Note CSS -->
+		<link rel="stylesheet" href="css/summernote.css">
+
+		<!-- Font Awesome and Ion Icons -->
+		<link href="fonts/font-awesome.min.css" rel="stylesheet">
+		<link href="fonts/ionicons.min.css" rel="stylesheet">
+
+		<!-- Color Picker -->
+		<link rel="stylesheet" href="css/color-picker/spectrum.css">
+
+		<!-- HTML5 shiv and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!--[if lt IE 9]>
+			<script src="js/html5shiv.js"></script>
+			<script src="js/respond.min.js"></script>
+		<![endif]-->
+	</head>  
+
+	<body>
+		<!-- Header Start -->
+		<header>
+			<a href="#" class="logo">
+				<img src="img/logo.png" alt="logo">
+			</a>
+			<ul class="pull-left" id="left-nav">
+				<li>
+					<a href="index.html#liveChat">
+						<div class="msg-chats">
+							<img src="img/user1.jpg" alt="Chats">
+							<img class="add-user" src="img/user2.jpg" alt="Chats">
+							<span class="info-label"></span>
+						</div>
+					</a>
+				</li>
+
+			</ul>
+			<div class="pull-right">
+				<ul id="mini-nav" class="clearfix">
+					<li class="list-box hidden-xs">
+						<a href="#" data-toggle="modal" data-target="#modalMd">
+							<span class="text-danger">Code</span> <i class="ion-ios7-checkmark-outline"></i>
+						</a>
+						<!-- Modal -->
+						<div class="modal fade animated pulse" id="modalMd" tabindex="-1" role="dialog" aria-labelledby="myModalLabel5" aria-hidden="true">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+										<h4 class="modal-title text-danger" id="myModalLabel5">Coding Style </h4>
+									</div>
+									<div class="modal-body">
+										<img src="img/documentation.png" alt="Navigator Admin">
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-danger" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="list-box dropdown hidden-xs">
+						<a id="drop5" href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">
+							<i class="ion-ios7-cart-outline"></i>
+						</a>
+						<span class="info-label bg-danger animated rubberBand">9+</span>
+						<ul class="bounceIn animated dropdown-menu stats-widget clearfix">
+							<li>
+								<h5 class="text-success">$37895</h5>
+								<p>Revenue <span class="text-success">+2%</span></p>
+								<div class="progress progress-xs">
+									<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+										<span class="sr-only">40% Complete (success)</span>
+									</div>
+								</div>
+							</li>
+							<li>
+								<h5 class="text-warning">47,892</h5>
+								<p>Downloads <span class="text-warning">+39%</span></p>
+								<div class="progress progress-xs">
+									<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+										<span class="sr-only">40% Complete (warning)</span>
+									</div>
+								</div>
+							</li>
+							<li>
+								<h5 class="text-danger">28214</h5>
+								<p>Uploads <span class="text-danger">-7%</span></p>
+								<div class="progress progress-xs">
+									<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+										<span class="sr-only">40% Complete (danger)</span>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</li>
+					<li class="list-box dropdown hidden-xs">
+						<a id="drop5" href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">
+							<i class="ion-ios7-chatboxes-outline"></i>
+						</a>
+						<span class="info-label bg-danger animated rubberBand">6</span>
+						<ul class="dropdown-menu bounceIn animated quick-actions">
+							<li class="plain">Quick Links</li>
+							<li>
+								<a href="login.html">
+									<i class="ion-ios7-unlocked-outline text-warning"></i>
+								</a>
+							</li>
+							<li>
+								<a href="forms.html">
+									<i class="ion-ios7-paper-outline text-info"></i>
+								</a>
+							</li>
+							<li>
+								<a href="typography.html">
+									<i class="ion-bag text-success"></i>
+								</a>
+							</li>
+							<li>
+								<a href="graphs.html">
+									<i class="ion-arrow-graph-up-right text-yellow"></i>
+								</a>
+							</li>
+							<li>
+								<a href="maps.html">
+									<i class="ion-map text-fb"></i>
+								</a>
+							</li>
+							<li>
+								<a href="gallery.html">
+									<i class="ion-ios7-albums-outline text-twitter"></i>
+								</a>
+							</li>
+						</ul>
+					</li>
+					<li class="list-box dropdown hidden-xs">
+						<a id="drop1" href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">
+							<i class="ion-ios7-bell-outline"></i>
+						</a>
+						<span class="info-label bg-danger animated rubberBand">4</span>
+						<ul class="dropdown-menu bounceIn animated messages">
+							<li class="plain">Alerts</li>
+							<li>
+								<div class="icon">
+									<img src="img/user1.jpg" alt="Browser">
+								</div>
+								<div class="details">
+									<strong class="text-danger">Adams <span>warning</span></strong>
+									<span>Firefox is a free, open-source web browser from Mozilla.</span>
+								</div>
+							</li>
+							<li>
+								<div class="icon">
+									<img src="img/user3.jpg" alt="Browser">
+								</div>
+								<div class="details">
+									<strong class="text-info">Sam <span>info</span></strong>
+									<span>Internet Explorer is a free web browser from Microsoft.</span>
+								</div>
+							</li>
+							<li>
+								<div class="icon">
+									<img src="img/user5.jpg" alt="Browser">
+								</div>
+								<div class="details">
+									<strong class="text-info">Jennifer <span>info</span></strong>
+									<span>Safari is known for its sleek design and ease of use.</span>
+								</div>
+							</li>
+							<li>
+								<div class="icon">
+									<img src="img/user2.jpg" alt="Browser">
+								</div>
+								<div class="details">
+									<strong class="text-success">Sandy <span>completed</span></strong>
+									<span>The Opera browser is free, and it is the smallest and fastest browser in the world!</span>
+								</div>
+							</li>
+						</ul>
+					</li>
+					<li class="list-box user-profile hidden-xs">
+						<a href="login.html" class="user-avtar animated rubberBand">
+							<img src="img/user4.jpg" alt="Current User">
+						</a>
+					</li>
+					<li class="list-box hidden-lg hidden-md hidden-sm" id="mob-nav">
+						<a href="#">
+							<i class="ion-drag text-white"></i>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</header>
+		<!-- Header End -->
+
+		<!-- Left sidebar start -->
+		<aside id="sidebar">
+
+			<!-- Search bar start -->
+			<div class="custom-search">
+				<input type="text" class="search-query" placeholder="Search here ...">
+				<i class="ion-ios7-search"></i>
+			</div>
+			<!-- Search bar end -->
+
+			<!-- Menu start -->
+			<div id='menu'>
+				<ul>
+					<li>
+						<a href='index.html'>
+							<i class="ion-speedometer"></i>
+							<span>Dashboard</span>
+						</a>
+					</li>
+					<li class='has-sub'>
+						<a href='#'>
+							<i class="ion-arrow-graph-up-right"></i> 
+							<span>Graphs</span>
+						</a>
+						<ul>
+							<li>
+								<a href='graphs.html'>
+									<span>Flot</span>
+								</a>
+							</li>
+							<li>
+								<a href='google-graphs.html'>
+									<span>Google</span>
+								</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href='calendar.html'>
+							<i class="ion-calendar"></i> 
+							<span>Calendar</span>
+						</a>
+					</li>
+					<li>
+						<a href='gallery.html'>
+							<i class="ion-camera"></i> 
+							<span>Gallery</span>
+						</a>
+					</li>
+					<li>
+						<a href='maps.html'>
+							<i class="ion-map"></i>
+							<span>Vector Maps</span>
+						</a>
+					</li>
+					<li class='has-sub'>
+						<a href='#'>
+							<i class="ion-flask"></i> 
+							<span>Bonus Pages</span>
+						</a>
+						<ul>
+							<li>
+								<a href='invoice.html'>
+									<span>Invoice</span>
+								</a>
+							</li>
+							<li>
+								<a href="pricing.html">
+									<span>Pricing</span>
+								</a>
+							</li>
+							<li>
+								<a href='login.html'>
+									<span>Login</span>
+								</a>
+							</li>
+							<li>
+								<a href='error.html'>
+									<span>404</span>
+								</a>
+							</li>
+							<li>
+								<a href='basic.html'>
+									<span>Basic Template</span>
+								</a>
+							</li>
+						</ul>
+					</li>
+					<li class='has-sub'>
+						<a href='#'>
+							<i class="ion-briefcase"></i>
+							<span>UI Elements</span>
+						</a>
+						<ul>
+							<li>
+								<a href='buttons.html'>
+									<span>Buttons</span>
+								</a>
+							</li>
+							<li>
+								<a href='tabs.html'>
+									<span>Tabs</span>
+								</a>
+							</li>
+							<li>
+								<a href='components.html'>
+									<span>Components</span>
+								</a>
+							</li>
+							<li>
+								<a href='panels.html'>
+									<span>Panels</span>
+								</a>
+							</li>
+							<li>
+								<a href='icons.html'>
+									<span>Icons</span>
+								</a>
+							</li>
+							<li>
+								<a href='grid.html'>
+									<span>Grid</span>
+								</a>
+							</li>
+						</ul>
+					</li>
+					<li class="highlight active">
+						<a href='form-elements.html'>
+							<i class="ion-ios7-paper-outline"></i>
+							<span>Form Elements</span>
+						</a>
+					</li>
+					<li class='has-sub'>
+						<a href='#'>
+							<i class="ion-android-sort"></i> 
+							<span>Tables</span>
+						</a>
+						<ul>
+							<li>
+								<a href='tables.html'>
+									<span>Normal Tables</span>
+								</a>
+							</li>
+							<li>
+								<a href='datatables.html'>
+									<span>Data Tables</span>
+								</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<!-- Menu End -->
+
+			<!-- Extras Start -->
+			<div class="addons">
+
+				<ul class="recent clearfix">
+					<li class="bg-danger">
+						<a href="error.html">
+							<i class="ion-ios7-close-outline"></i>
+							<p>404</p>
+						</a>
+					</li>
+					<li class="bg-info">
+						<a href="login.html">
+							<i class="ion-ios7-unlocked-outline"></i>
+							<p>Login</p>
+						</a>
+					</li>
+				</ul>
+
+			</div>
+			<!-- Extras End -->
+			
+		</aside>
+		<!-- Left sidebar end -->
+
+		<!-- Dashboard Wrapper Start -->
+		<div class="dashboard-wrapper">
+
+			<!-- Main Container Start -->
+			<div class="main-container">
+
+				<!-- Top Bar Starts -->
+				<div class="top-bar clearfix">
+					<div class="page-title">
+						Form Elements
+					</div>
+					<ul class="stats hidden-xs hidden-sm">
+						<li>
+							<div class="ststs-block hidden-md">
+								<span id="downloads_graph"></span>
+							</div>
+							<div class="stats-details">
+								<h4><span id="downloads">78</span> <i class="ion-chevron-up up animated tada"></i></h4>
+								<h5>Downloads</h5>
+							</div>
+						</li>
+						<li>
+							<div class="ststs-block hidden-md">
+								<span id="users_online_graph"></span>
+							</div>
+							<div class="stats-details">
+								<h4><span id="users_online">45</span> <i class="ion-chevron-down down animated tada"></i></h4>
+								<h5>Users Online</h5>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<!-- Top Bar Ends -->
+
+				<!-- Container fluid Starts -->
+				<div class="container-fluid">
+
+					<!-- Spacer starts -->
+					<div class="spacer">
+
+						<!-- Row starts -->
+						<div class="row">
+							<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+								<!-- Panel starts -->
+								<div class="panel-white">
+									<h4 class="heading">WYSIWYG Editor</h4>
+									<div class="panel-body">
+										<div class="summernote"></div>
+									</div>
+								</div>
+								<!-- Panel ends -->
+							</div>
+							<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+								<!-- Panel starts -->
+								<div class="panel-white">
+									<h4 class="heading">Notifications</h4>
+									<div class="panel-body">
+										<div class="demo-btn-group  center-align-text">
+											<a href="#" class="btn btn-sm btn-danger btn-block" id="error" data-original-title="" title="">Error</a>
+											<a href="#" class="btn btn-sm btn-success btn-block" id="success" data-original-title="" title="">Success</a>
+											<a href="#" class="btn btn-sm btn-info btn-block" id="notification" data-original-title="" title="">Info</a>
+											<a href="#" class="btn btn-sm btn-warning btn-block" id="custom" data-original-title="" title="">Simple</a>
+											<a href="#" class="btn btn-sm btn-primary btn-block" id="delay" data-original-title="" title="">Hide in 10 secs</a>
+											<a href="#" class="btn btn-sm btn-brown btn-block" id="forever" data-original-title="" title="">Persistent</a>
+										</div>
+									</div>
+								</div>
+								<!-- Panel ends -->
+							</div>
+						</div>
+						<!-- Row ends -->
+
+						<!-- Row starts -->
+						<div class="row">
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+								<div class="panel-white">
+									<h4 class="heading">Inline Form</h4>
+									<div class="panel-body">
+										<form class="form-inline" role="form">
+										  <div class="form-group">
+										    <label class="sr-only" for="name2">Name</label>
+										    <input type="text" class="form-control" id="name2" placeholder="Name" autocomplete="off">
+										  </div>
+										  <div class="form-group">
+										    <label class="sr-only" for="email2">email</label>
+										    <input type="email" class="form-control" id="email2" placeholder="Email" autocomplete="off">
+										  </div>
+										  <div class="squared-check">
+												<input type="checkbox" value="None" id="iPad" name="check" checked="">
+												<label for="iPad"></label>
+												<div class="cb-label">i'm Interested</div>
+											</div>
+										  <button type="submit" class="btn btn-primary">Sign In</button>
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Row ends -->
+
+						<!-- Row start -->
+						<div class="row">
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+								<div class="panel-white">
+									<h4 class="heading">With Optional Icons</h4>
+									<div class="panel-body">
+										<div class="form-group has-success has-feedback">
+											<label class="control-label" for="inputSuccess2">Input with success</label>
+											<input type="text" class="form-control" id="inputSuccess2">
+											<span class="fa fa-check form-control-feedback"></span>
+										</div>
+										<div class="form-group has-warning has-feedback">
+											<label class="control-label" for="inputWarning2">Input with warning</label>
+											<input type="text" class="form-control" id="inputWarning2">
+											<span class="fa fa-exclamation-triangle form-control-feedback"></span>
+										</div>
+										<div class="form-group has-error has-feedback">
+											<label class="control-label" for="inputError2">Input with error</label>
+											<input type="text" class="form-control" id="inputError2">
+											<span class="fa fa-times form-control-feedback"></span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Row end -->
+
+						<!-- Row Start -->
+						<div class="row">
+							<div class="col-lg-6 col-md-6 col-sx-12 col-sm-12">
+								<div class="panel-white">
+									<h4 class="heading">Basic Form Elements</h4>
+									<div class="panel-body">
+										<form role="form">
+											<div class="form-group">
+												<label for="exampleInputEmail1">Email address</label>
+												<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+											</div>
+											<div class="form-group">
+												<label for="exampleInputPassword1">Password</label>
+												<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+											</div>
+											<div class="squared-check">
+												<input type="checkbox" value="None" id="checkMeOut" name="check" checked="">
+												<label for="checkMeOut"></label>
+												<div class="cb-label">Check Me Out</div>
+											</div>
+											<br>
+											<br>
+											<button type="submit" class="btn btn-primary">Submit</button>
+										</form>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6 col-md-6 col-sx-12 col-sm-12">
+								<div class="panel-white">
+									<h4 class="heading">Horizontal Form</h4>
+									<div class="panel-body">
+										<form class="form-horizontal" role="form">
+											<div class="form-group">
+												<label for="inputName" class="col-sm-2 control-label">Name</label>
+												<div class="col-sm-10">
+													<input type="email" class="form-control" id="inputName" placeholder="Email">
+												</div>
+											</div>
+											<div class="form-group">
+												<label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+												<div class="col-sm-10">
+													<input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+												</div>
+											</div>
+											<div class="form-group">
+												<label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+												<div class="col-sm-10">
+													<input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+												</div>
+											</div>
+											<div class="form-group" style="margin-bottom: 2px;">
+												<div class="col-sm-offset-2 col-sm-10">
+													<div class="squared-check">
+														<input type="checkbox" value="None" id="rememberMe" name="check" checked="">
+														<label for="rememberMe"></label>
+														<div class="cb-label">Remember Me</div>
+													</div>
+													<br>
+													<br>
+												</div>
+											</div>
+											<div class="form-group" style="margin-bottom: 0px;">
+												<div class="col-sm-offset-2 col-sm-10">
+													<button type="submit" class="btn btn-primary">Sign in</button>
+												</div>
+											</div>
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Row End -->
+
+						<!-- Row start -->
+						<div class="row">
+							<div class="col-md-6 col-sm-6 col-xs-12">
+								<div class="panel-white">
+									<h4 class="heading">Input Sizing</h4>
+									<div class="panel-body">
+										<div class="input-group input-group-lg">
+											<span class="input-group-addon">@</span>
+											<input type="text" class="form-control input-lg" placeholder="Username">
+										</div>
+										<br>
+										<div class="input-group">
+											<span class="input-group-addon">$</span>
+											<input type="text" class="form-control" placeholder="Currency">
+										</div>
+										<br>
+										<div class="input-group input-group-sm">
+											<span class="input-group-addon">{}</span>
+											<input type="text" class="form-control" placeholder="Code">
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-sm-6 col-xs-12">
+								<div class="panel-white">
+									<h4 class="heading">Height Sizing</h4>
+									<div class="panel-body">
+										<select class="form-control input-lg">
+											<option value="">.input-lg</option>
+										</select>
+										<br>
+										<select class="form-control">
+											<option value="">Default select</option>
+										</select>
+										<br>
+										<select class="form-control input-sm">
+											<option value="">.input-sm</option>
+										</select>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Row end -->
+
+						<!-- Row start -->
+						<div class="row">
+							<div class="col-md-12 col-sm-12 col-xs-12">
+								<div class="panel-white">
+									<h4 class="heading">Input Groups</h4>
+									<div class="panel-body">
+										<div class="row">
+											<div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+												<div class="input-group">
+												<span class="input-group-addon">@</span>
+												<input type="text" class="form-control" placeholder="Username">
+											</div>
+											</div>
+											<div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+												<div class="input-group">
+													<input type="text" class="form-control">
+													<span class="input-group-addon">.00</span>
+												</div>
+											</div>
+											<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 hidden-xs">
+												<div class="input-group">
+													<span class="input-group-addon">$</span>
+													<input type="text" class="form-control">
+													<span class="input-group-addon">.00</span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Row end -->
+
+						<!-- Row start -->
+						<div class="row">
+							<div class="col-md-12 col-sm-12 col-xs-12">
+								<div class="panel-white">
+									<h4 class="heading">Button Addons</h4>
+									<div class="panel-body">
+										<div class="row">
+											<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+												<div class="input-group">
+													<span class="input-group-btn">
+														<button class="btn btn-default" type="button" data-original-title="" title="">Go!</button>
+													</span>
+													<input type="text" class="form-control">
+												</div>
+											</div>
+											<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+												<div class="input-group">
+													<input type="text" class="form-control">
+													<span class="input-group-btn">
+														<button class="btn btn-default" type="button" data-original-title="" title="">Submit!</button>
+													</span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Row end -->
+
+						<!-- Row start -->
+						<div class="row">
+							<div class="col-md-12 col-sm-12 col-xs-12">
+								<div class="panel-white">
+									<h4 class="heading">Check Boxes &amp; Radio Addons</h4>
+									<div class="panel-body">
+										<div class="row">
+											<div class="col-md-3 col-sm-3 col-xs-3">
+												<div class="input-group">
+													<span class="input-group-addon">
+														<input type="checkbox">
+													</span>
+													<input type="text" class="form-control">
+												</div>
+											</div>
+											<div class="col-md-3 col-sm-3 col-xs-3">
+												<div class="input-group">
+													<span class="input-group-addon">
+														<input type="checkbox" checked="">
+													</span>
+													<input type="text" class="form-control">
+												</div>
+											</div>
+											<div class="col-md-3 col-sm-3 col-xs-3">
+												<div class="input-group">
+													<span class="input-group-addon">
+														<input type="radio" name="optionsRadio" id="optionsRadiosX" value="optionx">
+													</span>
+													<input type="text" class="form-control">
+												</div>
+											</div>
+											<div class="col-md-3 col-sm-3 col-xs-3">
+												<div class="input-group">
+													<span class="input-group-addon">
+														<input type="radio" name="optionsRadio" id="optionsRadiosY" value="optiony" checked="">
+													</span>
+													<input type="text" class="form-control">
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Row end -->
+
+						<!-- Row start -->
+						<div class="row">
+							<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+								<div class="panel-white">
+									<h4 class="heading">Check boxes</h4>
+									<div class="panel-body">
+										<label class="checkbox-inline">
+											<input type="checkbox" id="inlineCheckbox1" value="option1" checked=""> Checked
+										</label>
+										<label class="checkbox-inline">
+											<input type="checkbox" id="inlineCheckbox2" value="option2"> Un checked
+										</label>
+										<label class="checkbox-inline">
+											<input type="checkbox" id="inlineCheckbox3" value="option3" disabled=""> Disabled
+										</label>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+								<div class="panel-white">
+									<h4 class="heading">Radio buttons</h4>
+									<div class="panel-body">
+										<label class="radio-inline">
+											<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked=""> Checked
+										</label>
+										<label class="radio-inline">
+											<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2"> Un checked
+										</label>
+										<label class="radio-inline">
+											<input type="radio" name="optionsRadios" id="optionsRadios3" value="option2" disabled=""> Disabled
+										</label>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Row end -->
+
+						<!-- Row start -->
+						<div class="row">
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+								<div class="panel-white">
+									<h4 class="heading">Input Styles</h4>
+									<div class="panel-body">
+										<form class="form-horizontal row-border" action="#">
+											<div class="form-group">
+												<label class="col-md-2 control-label">Default input</label>
+												<div class="col-md-10">
+													<input type="text" name="regular" class="form-control">
+												</div>
+											</div>
+											<div class="form-group">
+												<label class="col-md-2 control-label">Password</label>
+												<div class="col-md-10">
+													<input class="form-control" type="password" name="pass">
+												</div>
+											</div>
+											<div class="form-group">
+												<label class="col-md-2 control-label">Placeholder</label>
+												<div class="col-md-10">
+													<input class="form-control" type="text" name="placeholder" placeholder="placeholder">
+												</div>
+											</div>
+											<div class="form-group">
+												<label class="col-md-2 control-label">Disabled</label>
+												<div class="col-md-10">
+													<input type="text" name="disabled" disabled="disabled" value="disabled" class="form-control">
+												</div>
+											</div>
+											<div class="form-group">
+												<label class="col-md-2 control-label">Read only</label>
+												<div class="col-md-10">
+													<input class="form-control" type="text" name="readonly" readonly="" value="read only">
+												</div>
+											</div>
+											<div class="form-group">
+												<label class="col-md-2 control-label">Help text</label>
+												<div class="col-md-10">
+													<input type="text" name="regular" class="form-control">
+													<span class="help-block">A block of help text that breaks onto a new line and may extend beyond one line.</span>
+												</div>
+											</div>
+											<div class="form-group">
+												<label class="col-md-2 control-label">Predefined</label>
+												<div class="col-md-10">
+													<input type="text" name="regular" value="http://" class="form-control">
+												</div>
+											</div>
+											<div class="form-group">
+												<label class="col-md-2 control-label">Column sizing</label>
+												<div class="col-md-10">
+													<div class="row">
+														<div class="col-xs-3">
+															<input type="text" class="form-control" placeholder=".col-xs-3">
+														</div>
+														<div class="col-xs-5">
+															<input type="text" class="form-control" placeholder=".col-xs-5">
+														</div>
+														<div class="col-xs-4">
+															<input type="text" class="form-control" placeholder=".col-xs-4">
+														</div>
+													</div>
+												</div>
+											</div>
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Row end -->
+
+					</div>
+					<!-- Spacer ends -->
+
+				</div>
+				<!-- Container fluid ends -->
+
+			</div>
+			<!-- Main Container start -->
+
+		</div>
+		<!-- Dashboard Wrapper end -->
+
+		<!-- Footer start -->
+		<footer>
+			Copyright Navigator 2014. All Rights Reserved.
+		</footer>
+		<!-- Footer end -->
+
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="js/jquery.js"></script>
+
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="js/bootstrap.min.js"></script>
+
+		<!-- Sparkline graphs -->
+		<script src="js/sparkline.js"></script>
+
+		<!-- jquery ScrollUp JS -->
+		<script src="js/scrollup/jquery.scrollUp.js"></script>
+
+		<!-- Notifications JS -->
+		<script src="js/alertify/alertify.js"></script>
+		<script src="js/alertify/alertify-custom.js"></script>
+
+		<!-- Summer Note JS -->
+		<script src="js/summernote/summernote.js"></script>
+		
+		<!-- Custom JS -->
+		<script src="js/custom.js"></script>
+
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$('.summernote').summernote({height: 116});
+			});
+		</script>
+	</body>
+</html>

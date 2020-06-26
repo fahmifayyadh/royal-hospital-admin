@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="150" viewBox="0 0 280 150">
+  <g id="Group_3" data-name="Group 3" transform="translate(-820 -465)">
+    <g id="Group_1" data-name="Group 1">
+      <g id="Group_2" data-name="Group 2">
+        <g id="Group_1-2" data-name="Group 1">
+          <g id="Group_1-3" data-name="Group 1" transform="translate(1)">
+            <g id="Group_1-4" data-name="Group 1" transform="translate(809 390)">
+              <g id="Rectangle_1" data-name="Rectangle 1" transform="translate(10 75)" fill="none" stroke="#fff" stroke-width="1">
+                <rect width="280" height="150" stroke="none"/>
+                <rect x="0.5" y="0.5" width="279" height="149" fill="none"/>
+              </g>
+              <g id="Rectangle_2" data-name="Rectangle 2" transform="translate(16 92.995)" fill="none" stroke="#fff" stroke-width="1">
+                <rect width="10.834" height="127" stroke="none"/>
+                <rect x="0.5" y="0.5" width="9.834" height="126" fill="none"/>
+              </g>
+              <g id="Rectangle_3" data-name="Rectangle 3" transform="translate(30.547 92.995)">
+                <path id="Path_1" data-name="Path 1" d="M0,0H253.32V127H0Z" fill="none"/>
+                <path id="Path_2" data-name="Path 2" d="M1.136,1V126.005H252.184V1H1.136M0,0H253.32V127.005H0Z" fill="#fff"/>
+              </g>
+              <g id="Rectangle_2-2" data-name="Rectangle 2" transform="translate(16 78.995)" fill="none" stroke="#fff" stroke-width="1">
+                <rect width="268" height="12" stroke="none"/>
+                <rect x="0.5" y="0.5" width="267" height="11" fill="none"/>
+              </g>
+              <path id="Path_1-2" data-name="Path 1" d="M0,0H9.834" transform="translate(16.5 102.5)" fill="none" stroke="#fff" stroke-width="1"/>
+              <path id="Path_8" data-name="Path 8" d="M0,0H9.834" transform="translate(16.5 134.5)" fill="none" stroke="#fff" stroke-width="1"/>
+              <path id="Path_4" data-name="Path 4" d="M0,0H9.834" transform="translate(16.5 118.5)" fill="none" stroke="#fff" stroke-width="1"/>
+              <path id="Path_6" data-name="Path 6" d="M0,0H9.834" transform="translate(16.5 150.5)" fill="none" stroke="#fff" stroke-width="1"/>
+              <path id="Path_2-2" data-name="Path 2" d="M0,0H9.834" transform="translate(16.5 110.5)" fill="none" stroke="#fff" stroke-width="1"/>
+              <path id="Path_7" data-name="Path 7" d="M0,0H9.834" transform="translate(16.5 142.5)" fill="none" stroke="#fff" stroke-width="1"/>
+              <path id="Path_3" data-name="Path 3" d="M0,0H9.834" transform="translate(16.5 126.5)" fill="none" stroke="#fff" stroke-width="1"/>
+              <path id="Path_5" data-name="Path 5" d="M0,0H9.834" transform="translate(16.5 158.5)" fill="none" stroke="#fff" stroke-width="1"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

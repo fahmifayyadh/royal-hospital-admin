@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<meta name="description" content="Navigator Admin Panel" />
+		<meta name="keywords" content="Admin, Dashboard, Bootstrap3, Sass, transform, CSS3, HTML5, Web design, UI Design, Responsive Dashboard, Responsive Admin, Admin Theme, Best Admin UI, Bootstrap Theme, Wrapbootstrap, Bootstrap" />
+		<meta name="author" content="Bootstrap Gallery" />
+		<link rel="shortcut icon" href="img/favicon.ico">
+		<title>Esquare Admin Dashboard</title>
+		
+		<!-- Bootstrap CSS -->
+		<link href="css/bootstrap.css" rel="stylesheet" media="screen">
+
+		<!-- Animate CSS -->
+		<link href="css/animate.css" rel="stylesheet" media="screen">
+
+		<!-- Main CSS -->
+		<link href="css/main.css" rel="stylesheet" media="screen">
+
+		<!-- Font Awesome and Ion Icons -->
+		<link href="fonts/ionicons.min.css" rel="stylesheet">
+
+		<!-- Color Picker -->
+		<link rel="stylesheet" href="css/color-picker/spectrum.css">
+
+		<!-- HTML5 shiv and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!--[if lt IE 9]>
+			<script src="js/html5shiv.js"></script>
+			<script src="js/respond.min.js"></script>
+		<![endif]-->
+	</head>  
+
+	<body>
+		<!-- Header Start -->
+		<header>
+			<a href="#" class="logo">
+				<img src="img/logo.png" alt="logo">
+			</a>
+			<ul class="pull-left" id="left-nav">
+				<li>
+					<a href="index.html#liveChat">
+						<div class="msg-chats">
+							<img src="img/user1.jpg" alt="Chats">
+							<img class="add-user" src="img/user2.jpg" alt="Chats">
+							<span class="info-label"></span>
+						</div>
+					</a>
+				</li>
+
+			</ul>
+			<div class="pull-right">
+				<ul id="mini-nav" class="clearfix">
+					<li class="list-box hidden-xs">
+						<a href="#" data-toggle="modal" data-target="#modalMd">
+							<span class="text-danger">Code</span> <i class="ion-ios7-checkmark-outline"></i>
+						</a>
+						<!-- Modal -->
+						<div class="modal fade animated pulse" id="modalMd" tabindex="-1" role="dialog" aria-labelledby="myModalLabel5" aria-hidden="true">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+										<h4 class="modal-title text-danger" id="myModalLabel5">Coding Style </h4>
+									</div>
+									<div class="modal-body">
+										<img src="img/documentation.png" alt="Navigator Admin">
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-danger" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="list-box dropdown hidden-xs">
+						<a id="drop5" href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">
+							<i class="ion-ios7-cart-outline"></i>
+						</a>
+						<span class="info-label bg-danger animated rubberBand">9+</span>
+						<ul class="bounceIn animated dropdown-menu stats-widget clearfix">
+							<li>
+								<h5 class="text-success">$37895</h5>
+								<p>Revenue <span class="text-success">+2%</span></p>
+								<div class="progress progress-xs">
+									<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+										<span class="sr-only">40% Complete (success)</span>
+									</div>
+								</div>
+							</li>
+							<li>
+								<h5 class="text-warning">47,892</h5>
+								<p>Downloads <span class="text-warning">+39%</span></p>
+								<div class="progress progress-xs">
+									<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+										<span class="sr-only">40% Complete (warning)</span>
+									</div>
+								</div>
+							</li>
+							<li>
+								<h5 class="text-danger">28214</h5>
+								<p>Uploads <span class="text-danger">-7%</span></p>
+								<div class="progress progress-xs">
+									<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+										<span class="sr-only">40% Complete (danger)</span>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</li>
+					<li class="list-box dropdown hidden-xs">
+						<a id="drop5" href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">
+							<i class="ion-ios7-chatboxes-outline"></i>
+						</a>
+						<span class="info-label bg-danger animated rubberBand">6</span>
+						<ul class="dropdown-menu bounceIn animated quick-actions">
+							<li class="plain">Quick Links</li>
+							<li>
+								<a href="login.html">
+									<i class="ion-ios7-unlocked-outline text-warning"></i>
+								</a>
+							</li>
+							<li>
+								<a href="forms.html">
+									<i class="ion-ios7-paper-outline text-info"></i>
+								</a>
+							</li>
+							<li>
+								<a href="typography.html">
+									<i class="ion-bag text-success"></i>
+								</a>
+							</li>
+							<li>
+								<a href="graphs.html">
+									<i class="ion-arrow-graph-up-right text-yellow"></i>
+								</a>
+							</li>
+							<li>
+								<a href="maps.html">
+									<i class="ion-map text-fb"></i>
+								</a>
+							</li>
+							<li>
+								<a href="gallery.html">
+									<i class="ion-ios7-albums-outline text-twitter"></i>
+								</a>
+							</li>
+						</ul>
+					</li>
+					<li class="list-box dropdown hidden-xs">
+						<a id="drop1" href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">
+							<i class="ion-ios7-bell-outline"></i>
+						</a>
+						<span class="info-label bg-danger animated rubberBand">4</span>
+						<ul class="dropdown-menu bounceIn animated messages">
+							<li class="plain">Alerts</li>
+							<li>
+								<div class="icon">
+									<img src="img/user1.jpg" alt="Browser">
+								</div>
+								<div class="details">
+									<strong class="text-danger">Adams <span>warning</span></strong>
+									<span>Firefox is a free, open-source web browser from Mozilla.</span>
+								</div>
+							</li>
+							<li>
+								<div class="icon">
+									<img src="img/user3.jpg" alt="Browser">
+								</div>
+								<div class="details">
+									<strong class="text-info">Sam <span>info</span></strong>
+									<span>Internet Explorer is a free web browser from Microsoft.</span>
+								</div>
+							</li>
+							<li>
+								<div class="icon">
+									<img src="img/user5.jpg" alt="Browser">
+								</div>
+								<div class="details">
+									<strong class="text-info">Jennifer <span>info</span></strong>
+									<span>Safari is known for its sleek design and ease of use.</span>
+								</div>
+							</li>
+							<li>
+								<div class="icon">
+									<img src="img/user2.jpg" alt="Browser">
+								</div>
+								<div class="details">
+									<strong class="text-success">Sandy <span>completed</span></strong>
+									<span>The Opera browser is free, and it is the smallest and fastest browser in the world!</span>
+								</div>
+							</li>
+						</ul>
+					</li>
+					<li class="list-box user-profile hidden-xs">
+						<a href="login.html" class="user-avtar animated rubberBand">
+							<img src="img/user4.jpg" alt="Current User">
+						</a>
+					</li>
+					<li class="list-box hidden-lg hidden-md hidden-sm" id="mob-nav">
+						<a href="#">
+							<i class="ion-drag text-white"></i>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</header>
+		<!-- Header End -->
+
+		<!-- Left sidebar start -->
+		<aside id="sidebar">
+
+			<!-- Search bar start -->
+			<div class="custom-search">
+				<input type="text" class="search-query" placeholder="Search here ...">
+				<i class="ion-ios7-search"></i>
+			</div>
+			<!-- Search bar end -->
+
+			<!-- Menu start -->
+			<div id='menu'>
+				<ul>
+					<li>
+						<a href='index.html'>
+							<i class="ion-speedometer"></i>
+							<span>Dashboard</span>
+						</a>
+					</li>
+					<li class='has-sub'>
+						<a href='#'>
+							<i class="ion-arrow-graph-up-right"></i> 
+							<span>Graphs</span>
+						</a>
+						<ul>
+							<li>
+								<a href='graphs.html'>
+									<span>Flot</span>
+								</a>
+							</li>
+							<li>
+								<a href='google-graphs.html'>
+									<span>Google</span>
+								</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href='calendar.html'>
+							<i class="ion-calendar"></i> 
+							<span>Calendar</span>
+						</a>
+					</li>
+					<li>
+						<a href='gallery.html'>
+							<i class="ion-camera"></i> 
+							<span>Gallery</span>
+						</a>
+					</li>
+					<li>
+						<a href='maps.html'>
+							<i class="ion-map"></i>
+							<span>Vector Maps</span>
+						</a>
+					</li>
+					<li class='has-sub highlight active'>
+						<a href='#'>
+							<i class="ion-flask"></i> 
+							<span>Bonus Pages</span>
+						</a>
+						<ul style="display:block">
+							<li>
+								<a href='invoice.html'>
+									<span>Invoice</span>
+								</a>
+							</li>
+							<li>
+								<a href="pricing.html" class="select">
+									<span>Pricing</span>
+								</a>
+							</li>
+							<li>
+								<a href='login.html'>
+									<span>Login</span>
+								</a>
+							</li>
+							<li>
+								<a href='error.html'>
+									<span>404</span>
+								</a>
+							</li>
+							<li>
+								<a href='basic.html'>
+									<span>Basic Template</span>
+								</a>
+							</li>
+						</ul>
+					</li>
+					<li class='has-sub'>
+						<a href='#'>
+							<i class="ion-briefcase"></i>
+							<span>UI Elements</span>
+						</a>
+						<ul>
+							<li>
+								<a href='buttons.html'>
+									<span>Buttons</span>
+								</a>
+							</li>
+							<li>
+								<a href='tabs.html'>
+									<span>Tabs</span>
+								</a>
+							</li>
+							<li>
+								<a href='components.html'>
+									<span>Components</span>
+								</a>
+							</li>
+							<li>
+								<a href='panels.html'>
+									<span>Panels</span>
+								</a>
+							</li>
+							<li>
+								<a href='icons.html'>
+									<span>Icons</span>
+								</a>
+							</li>
+							<li>
+								<a href='grid.html'>
+									<span>Grid</span>
+								</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href='form-elements.html'>
+							<i class="ion-ios7-paper-outline"></i>
+							<span>Form Elements</span>
+						</a>
+					</li>
+					<li>
+						<a href='typography.html'>
+							<i class="ion-bag"></i>
+							<span>Typography</span>
+						</a>
+					</li>
+					<li class='has-sub'>
+						<a href='#'>
+							<i class="ion-android-sort"></i> 
+							<span>Tables</span>
+						</a>
+						<ul>
+							<li>
+								<a href='tables.html'>
+									<span>Normal Tables</span>
+								</a>
+							</li>
+							<li>
+								<a href='datatables.html'>
+									<span>Data Tables</span>
+								</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<!-- Menu End -->
+
+			<!-- Extras Start -->
+			<div class="addons">
+
+				<ul class="recent clearfix">
+					<li class="bg-danger">
+						<a href="error.html">
+							<i class="ion-ios7-close-outline"></i>
+							<p>404</p>
+						</a>
+					</li>
+					<li class="bg-info">
+						<a href="login.html">
+							<i class="ion-ios7-unlocked-outline"></i>
+							<p>Login</p>
+						</a>
+					</li>
+				</ul>
+
+			</div>
+			<!-- Extras End -->
+			
+		</aside>
+		<!-- Left sidebar end -->
+
+		<!-- Dashboard Wrapper Start -->
+		<div class="dashboard-wrapper">
+
+			<!-- Main Container Start -->
+			<div class="main-container">
+
+				<!-- Top Bar Starts -->
+				<div class="top-bar clearfix">
+					<div class="page-title">
+						Pricing Plan
+					</div>
+					<ul class="stats hidden-xs hidden-sm">
+						<li>
+							<div class="ststs-block hidden-md">
+								<span id="downloads_graph"></span>
+							</div>
+							<div class="stats-details">
+								<h4><span id="downloads">78</span> <i class="ion-chevron-up up animated tada"></i></h4>
+								<h5>Downloads</h5>
+							</div>
+						</li>
+						<li>
+							<div class="ststs-block hidden-md">
+								<span id="users_online_graph"></span>
+							</div>
+							<div class="stats-details">
+								<h4><span id="users_online">45</span> <i class="ion-chevron-down down animated tada"></i></h4>
+								<h5>Users Online</h5>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<!-- Top Bar Ends -->
+
+				<!-- Container fluid Starts -->
+				<div class="container-fluid">
+
+					<!-- Spacer starts -->
+					<div class="spacer">
+
+						<!-- Row starts -->
+						<div class="row">
+							<div class="col-lg-12">
+								<div class="panel-white">
+									<h4 class="heading">Pricing Plan V1</h4>
+									<div class="panel-body">
+										<section id="pricePlans">
+											<ul id="plans">
+												<li class="plan">
+													<ul class="planContainer">
+														<li class="title"><h2>Plan 1</h2></li>
+														<li class="price"><p>$10/<span>month</span></p></li>
+														<li>
+															<ul class="options">
+																<li>2x <span>option 1</span></li>
+																<li>Free <span>option 2</span></li>
+																<li>Unlimited <span>option 3</span></li>
+																<li>Unlimited <span>option 4</span></li>
+																<li>1x <span>option 5</span></li>
+															</ul>
+														</li>
+														<li class="button"><a href="#">Buy Now</a></li>
+													</ul>
+												</li>
+												<li class="plan">
+													<ul class="planContainer">
+														<li class="title"><h2 class="bestPlanTitle">Plan 2</h2></li>
+														<li class="price"><p class="bestPlanPrice">$20/month</p></li>
+														<li>
+															<ul class="options">
+																<li>2x <span>option 1</span></li>
+																<li>Free <span>option 2</span></li>
+																<li>Unlimited <span>option 3</span></li>
+																<li>Unlimited <span>option 4</span></li>
+																<li>1x <span>option 5</span></li>
+															</ul>
+														</li>
+														<li class="button"><a class="bestPlanButton" href="#">Buy Now</a></li>
+													</ul>
+												</li>
+												<li class="plan">
+													<ul class="planContainer">
+														<li class="title"><h2>Plan 3</h2></li>
+														<li class="price"><p>$30/<span>month</span></p></li>
+														<li>
+															<ul class="options">
+																<li>2x <span>option 1</span></li>
+																<li>Free <span>option 2</span></li>
+																<li>Unlimited <span>option 3</span></li>
+																<li>Unlimited <span>option 4</span></li>
+																<li>1x <span>option 5</span></li>
+															</ul>
+														</li>
+														<li class="button"><a href="#">Buy Now</a></li>
+													</ul>
+												</li>
+												<li class="plan">
+													<ul class="planContainer">
+														<li class="title"><h2>Plan 4</h2></li>
+														<li class="price"><p>$40/<span>month</span></p></li>
+														<li>
+															<ul class="options">
+																<li>2x <span>option 1</span></li>
+																<li>Free <span>option 2</span></li>
+																<li>Unlimited <span>option 3</span></li>
+																<li>Unlimited <span>option 4</span></li>
+																<li>1x <span>option 5</span></li>
+															</ul>
+														</li>
+														<li class="button"><a href="#">Buy Now</a></li>
+													</ul>
+												</li>
+											</ul>
+										</section>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Row ends -->
+
+						<!-- Row starts -->
+						<div class="row">
+							<div class="col-lg-12">
+								<div class="panel-white">
+									<h4 class="heading">Pricing Plan V2</h4>
+									<div class="panel-body">
+										<div class="row">
+											<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+												<div class="well">
+													<h2 class="text-grey no-margin">Basic</h2>
+													<br>
+													<p> - Something cool<br />
+														- Something noteworthy<br />
+														- Something awesome<br />
+													</p>
+													<p>This plan is good for this and you should get it for that or explain why the plan would be good for that person. You can also list features that come in all plans or whatever else you want.</p>
+													<hr>
+													<h3>$5.00 / month</h3>
+													<p><a class="btn btn-primary" href="#">Select plan</a></p>
+												</div>
+											</div>
+											<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+												<div class="well">
+													<h2 class="text-danger no-margin">Popular</h2>
+													<br>
+													 <p> - Something cool<br />
+														- Something noteworthy<br />
+														- Something awesome<br />
+													</p>
+													<p>This plan is good for this and you should get it for that or explain why the plan would be good for that person. You can also list features that come in all plans or whatever else you want.</p>
+													<hr>
+													<h3>$10.00 / month</h3>
+													<p><a class="btn btn-danger" href="#">Select plan</a></p>
+												</div>
+											</div>
+											<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+												<div class="well">
+													<h2 class="text-danger no-margin">Premium</h2>
+													<br>
+													<p> - Something cool<br />
+														- Something noteworthy<br />
+														- Something awesome<br />
+													</p>
+													<p>This plan is good for this and you should get it for that or explain why the plan would be good for that person. You can also list features that come in all plans or whatever else you want.</p>
+													<hr>
+													<h3>$15.00 / month</h3>
+													<p><a class="btn btn-danger" href="#">Select plan</a></p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Row ends -->
+
+					</div>
+					<!-- Spacer ends -->
+
+				</div>
+				<!-- Container fluid ends -->
+
+			</div>
+			<!-- Main Container start -->
+
+		</div>
+		<!-- Dashboard Wrapper end -->
+
+		<!-- Footer start -->
+		<footer>
+			Copyright Navigator 2014. All Rights Reserved.
+		</footer>
+		<!-- Footer end -->
+
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="js/jquery.js"></script>
+
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="js/bootstrap.min.js"></script>
+
+		<!-- Sparkline graphs -->
+		<script src="js/sparkline.js"></script>
+
+		<!-- jquery ScrollUp JS -->
+		<script src="js/scrollup/jquery.scrollUp.js"></script>
+
+		<!-- Custom JS -->
+		<script src="js/custom.js"></script>
+	</body>
+</html>

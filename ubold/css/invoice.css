@@ -1,0 +1,155 @@
+/*************** 1. Sass Variables ***************/
+/*************** 2.Mixins ***************/
+/*************** 1. Open Sans Google Font ***************/
+@font-face {
+  font-family: 'open_sansbold';
+  src: url("../fonts/opensans/opensans-bold-webfont.woff2") format("woff2"), url("../fonts/opensans/opensans-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'open_sanslight';
+  src: url("../fonts/opensans/opensans-light-webfont.woff2") format("woff2"), url("../fonts/opensans/opensans-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'open_sansregular';
+  src: url("../fonts/opensans/opensans-regular-webfont.woff2") format("woff2"), url("../fonts/opensans/opensans-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'open_sanssemibold';
+  src: url("../fonts/opensans/opensans-semibold-webfont.woff2") format("woff2"), url("../fonts/opensans/opensans-semibold-webfont.woff") format("woff");
+  font-weight: 700;
+  font-style: normal; }
+.project-container {
+  font-family: 'open_sanssemibold';
+  background-color: #ffffff;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  width: 100%;
+  color: #000000;
+  margin-bottom: 20px; }
+  .project-container .projects-header {
+    padding: 22px;
+    color: #3e7ba8; }
+    .project-container .projects-header .title {
+      display: inline-block; }
+    .project-container .projects-header .glyphicon {
+      cursor: pointer;
+      float: right;
+      font-size: 16px;
+      margin: 3px 0 0 0; }
+    .project-container .projects-header .title {
+      font-size: 20px; }
+  .project-container .projects-table {
+    width: 100%; }
+    .project-container .projects-table td, .project-container .projects-table th {
+      padding: 10px 20px;
+      vertical-align: middle; }
+    .project-container .projects-table td p {
+      margin: 0; }
+      .project-container .projects-table td p:last-of-type {
+        color: rgba(0, 0, 0, 0.4);
+        font-size: 12px; }
+    .project-container .projects-table tr:not(:last-of-type) {
+      border-bottom: 1px solid #ededed; }
+    .project-container .projects-table .member figure, .project-container .projects-table .member .member-info {
+      display: inline-block;
+      vertical-align: top; }
+    .project-container .projects-table .member figure + .member-info {
+      margin-left: 7px; }
+    .project-container .projects-table .member img {
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      border-radius: 50%;
+      height: 40px;
+      width: 40px; }
+    .project-container .projects-table .table-head {
+      background-color: #edf1f6; }
+    .project-container .projects-table th.table-head:not(:last-of-type) {
+      border-bottom: 1px solid #d5dfeb;
+      border-top: 1px solid #d5dfeb; }
+    .project-container .projects-table .status-text {
+      display: inline-block;
+      font-size: 13px;
+      margin: 11px 0;
+      padding-left: 20px;
+      position: relative; }
+      .project-container .projects-table .status-text:before {
+        border: 3px solid;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+        content: "";
+        height: 14px;
+        left: 0;
+        position: absolute;
+        top: 3px;
+        width: 14px; }
+      .project-container .projects-table .status-text.status-info:before {
+        border-color: #2bb4e8; }
+      .project-container .projects-table .status-text.status-purple:before {
+        border-color: #5a66b5; }
+      .project-container .projects-table .status-text.status-success:before {
+        border-color: #1dc1d6; }
+      .project-container .projects-table .status-text.status-danger:before {
+        border-color: #fa5561; }
+    .project-container .projects-table .status-info {
+      font-size: 13px; }
+      .project-container .projects-table .status-info i {
+        float: left;
+        margin-right: 5px;
+        font-size: 21px; }
+      .project-container .projects-table .status-info.approved i {
+        color: #1dc1d6; }
+      .project-container .projects-table .status-info.rejected i {
+        color: #fa5561; }
+      .project-container .projects-table .status-info.pending i {
+        color: #ffc819; }
+    .project-container .projects-table .selected {
+      background-color: #f0f4f8; }
+    .project-container .projects-table tr.selected:not(:last-of-type) {
+      border-bottom: 1px solid #f0f4f8; }
+    .project-container .projects-table .progress {
+      background-color: #fefeff; }
+  .project-container.primary {
+    background-color: #212c3a;
+    color: #e6ecf3; }
+    .project-container.primary .projects-header {
+      color: #e6ecf3; }
+    .project-container.primary .projects-table td p:last-of-type {
+      color: rgba(255, 255, 255, 0.3); }
+    .project-container.primary .projects-table .table-head {
+      background-color: #2e3d51;
+      color: #e6ecf3; }
+    .project-container.primary .projects-table th.table-head:not(:last-of-type) {
+      border-bottom: 1px solid #2e3d51; }
+    .project-container.primary .projects-table tr:not(:last-of-type) {
+      border-bottom: 1px solid #304054; }
+    .project-container.primary .selected {
+      background-color: #444f7c; }
+    .project-container.primary tr.selected:not(:last-of-type) {
+      border-bottom: 1px solid #444f7c; }
+    .project-container.primary .progress {
+      background-color: rgba(255, 255, 255, 0.1); }
+  .project-container.no-margin {
+    margin: 0; }
+
+.invoice-container {
+  background-color: #ffffff;
+  padding: 25px;
+  margin-bottom: 20px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  color: #212c3a; }
+  .invoice-container a {
+    color: #19a6b0; }
+  .invoice-container.primary {
+    background-color: #212c3a;
+    color: #697384; }
+  .invoice-container p {
+    font-size: 13px; }
+
+/*# sourceMappingURL=invoice.css.map */

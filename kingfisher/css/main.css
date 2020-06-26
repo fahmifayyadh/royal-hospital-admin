@@ -1,0 +1,252 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700");
+
+/************************************************
+	************************************************
+										Body CSS							
+	************************************************
+************************************************/
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  position: relative;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font: normal .9rem 'Open Sans', sans-serif;
+  color: #2e323c;
+  background: #e6ecf3;
+}
+
+.spacer90 {
+	height: 90px;
+	display: block;
+	position: relative;
+}
+
+/* Fixed Header */
+.fixed-header {
+	background: #ffffff;
+	padding: .5rem 1rem;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	z-index: 1000;
+}
+
+a.logo {
+	margin: 2px 0 0 0;
+	display: block;
+}
+a.logo img {
+	max-height: 36px;
+}
+
+
+.header {
+	margin-top: 58px;
+	position: relative;
+	background-color: #118cf1;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#1ad0fc), to(#118cf1));
+	background-image: -webkit-linear-gradient(right, #1ad0fc, #118cf1);
+	padding: 1.5rem;
+	color: #ffffff;
+	text-align: center;
+}
+.header h1 {
+	line-height: 130%;
+}	
+.header h6 {
+	line-height: 150%;
+}	
+
+/************************* Backgrounds *************************/
+.wrapper {
+	text-align: center;
+	padding: 2.5rem;
+}
+.wrapper h1 {
+	margin-bottom: 3.5rem;
+	font-size: 2rem;
+	font-weight: 100;
+	position: relative;
+}
+.wrapper h5 {
+	font-size: .7rem;
+	font-weight: 100;
+	position: relative;
+	margin: 0;
+	line-height: 100%;
+}
+.wrapper h1:after {
+	position: absolute;
+	bottom: -5px;
+	width: 60px;
+	height: 2px;
+	left: 50%;
+	margin-left: -30px;
+	content: "";
+	border-radius: 30px;
+	background: #ffffff;
+}
+.shade-one {
+	background-color: #6553bb;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#6553bb), to(#5141b5));
+	background-image: -webkit-linear-gradient(right, #6553bb, #5141b5);
+	color: #ffffff;	
+}
+.shade-two {
+	background-color: #FF7E39;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#FFB280), to(#FF7E39));
+	background-image: -webkit-linear-gradient(right, #FFB280, #FF7E39);
+	color: #ffffff;
+}
+.shade-three {
+	background: #3eb4ed;
+	color: #ffffff;
+}
+
+
+
+
+
+
+/* Demo Container */
+.demo-container {
+	padding: 0;
+	background: #d4dde4;
+}
+
+
+
+
+.preview-column {
+	margin-bottom: 50px;
+}
+h6.preview-title {
+	font-size: 18px;
+	color: #ffffff;
+	font-weight: 100;
+	margin-bottom: 10px;
+}
+a.theme-preview {
+	max-height: 270px;
+	overflow: hidden;
+	border-radius: 6px;
+	display: block;
+	text-align: center;
+	position: relative;
+	-webkit-transition: all .1s ease;
+	-o-transition: all .1s ease;
+	transition: all .1s ease;
+	margin-bottom: 10px;
+}
+a.theme-preview img {
+	max-width: 100%;
+	height: auto;
+	border-radius: 6px;
+	display: block;
+	text-align: center;
+	margin: auto;
+}
+a.theme-preview .image-overly {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0px;
+	left: 0;
+	display: none;
+}
+a.theme-preview:hover .image-overly {
+	display: block;
+	-webkit-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+	-webkit-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+	padding-top: 30%;
+	background: rgba(255, 255, 255, 0.2);
+}
+a.theme-preview:hover .image-overly:after {
+	transition: all 0.5s ease;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -18px;
+	margin-left: -60px;
+	width: 150px;
+	height: 48px;
+	font-size: 18px;
+	background-color: #ff6d1e;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#eb3e3a), to(#ff6d1e));
+	background-image: -webkit-linear-gradient(right, #eb3e3a, #ff6d1e);
+	color: #ffffff;
+	font-weight: 600;
+	line-height: 48px;
+	content: "Live Demo";
+	text-align: center;
+	border-radius: 100px;
+}
+
+
+
+/* Buy Now Button */
+.buy-btn {
+	background-color: #50b924;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#a5b936), to(#50b924));
+	background-image: -webkit-linear-gradient(right, #a5b936, #50b924);
+	color: #ffffff;
+	border-radius: 50px;
+	font-size: 18px;
+	margin: 0px auto;
+	padding: 9px 25px;
+	text-align: center;
+	float: right;
+}
+.buy-btn:hover {
+	background-color: #50b924;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#50b924), to(#a5b936));
+	background-image: -webkit-linear-gradient(right, #50b924, #a5b936);
+	color: #ffffff;
+	text-decoration: none;
+}
+
+
+
+/* Buy Now Big Button */
+.big-buy-btn {
+	background-color: #ffffff;
+	color: #ff7e39;
+	border-radius: 50px;
+	font-size: 21px;
+	margin: 0px auto;
+	padding: 15px 50px;
+	font-weight: 700;
+	text-align: center;
+	display: inline-block;
+	margin-bottom: 30px;
+}
+.big-buy-btn:hover {
+	background-color: #ffffff;
+	color: #ff7e39;
+	text-decoration: none;
+}
+
+
+.no-gutters {
+  margin-right: -0px;
+  margin-left: -0px;
+}
+.no-gutters > .col,
+.no-gutters > [class*="col-"] {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+

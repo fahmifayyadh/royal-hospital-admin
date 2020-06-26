@@ -1,0 +1,71 @@
+/*************** 1. Sass Variables ***************/
+/*************** 2.Mixins ***************/
+.plan-one {
+  margin: 0 0 20px 0;
+  width: 100%;
+  position: relative;
+  float: left;
+  background-color: #242c38;
+  color: #98a7bb;
+  -webkit-border-radius: 5px 5px 10px 10px;
+  -moz-border-radius: 5px 5px 10px 10px;
+  border-radius: 5px 5px 10px 10px; }
+  .plan-one .pricing-header {
+    position: relative;
+    padding: 20px 10px; }
+    .plan-one .pricing-header i {
+      font-size: 56px;
+      margin: 0 15px;
+      color: #68b4b4;
+      display: inline-block;
+      float: left; }
+  .plan-one .plan-title {
+    top: 0;
+    font-family: 'open_sansbold';
+    font-size: 21px;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px; }
+  .plan-one .plan-cost {
+    margin: 0; }
+    .plan-one .plan-cost .plan-price {
+      font-family: 'open_sansbold';
+      font-size: 20px; }
+    .plan-one .plan-cost .plan-type {
+      opacity: 0.8;
+      font-size: 0.7em;
+      text-transform: uppercase; }
+  .plan-one .plan-features {
+    padding: 0;
+    margin: 0 0 20px 0;
+    text-align: center;
+    list-style: outside none none;
+    font-size: 14px;
+    text-align: left; }
+    .plan-one .plan-features li {
+      padding: 5px 5%;
+      border-left: 5px solid #19a6b0;
+      margin: 2px 20px; }
+      .plan-one .plan-features li:hover {
+        color: #ffffff; }
+  .plan-one .plan-select {
+    background-color: #1a2028;
+    -webkit-border-radius: 0 0 10px 10px;
+    -moz-border-radius: 0 0 10px 10px;
+    border-radius: 0 0 10px 10px;
+    text-align: center; }
+    .plan-one .plan-select a {
+      color: #ffffff;
+      text-decoration: none;
+      padding: 15px 20px;
+      margin: 20px;
+      border-radius: 40px;
+      font-size: 14px;
+      font-family: 'open_sansbold';
+      text-transform: uppercase;
+      display: inline-block;
+      background-color: #2a8ea6; }
+      .plan-one .plan-select a:hover {
+        background-color: #19a6b0; }
+
+/*# sourceMappingURL=pricing.css.map */

@@ -1,0 +1,117 @@
+/******************* BASIC STYLING **********************/
+.scroll_tabs_container {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	text-align: left;
+	min-height: 100px;
+	margin-bottom: 20px;
+	background-color: #242c38;
+	border-radius: 3px;
+}
+
+/****************** DARK THEME **************************/
+
+.scrolltabs div.scroll_tab_inner span, .scrolltabs div.scroll_tab_inner li {
+	padding: 0 20px;
+	line-height: 100%;
+	font-size: 14px;
+	background-color: #242c38;
+	color: #ccd6e0;
+	cursor: pointer;
+	min-height: 100px;
+	min-width: 180px;
+	text-align: center;	
+}
+
+.scrolltabs div.scroll_tab_inner span.scroll_tab_first, .scrolltabs div.scroll_tab_inner li.scroll_tab_first {
+	border-left: 0px;
+}
+
+.scrolltabs div.scroll_tab_inner span.scroll_tab_left_finisher {
+	padding: 0px;
+	width: 10px;
+}
+
+.scrolltabs div.scroll_tab_inner span.scroll_tab_right_finisher {
+	padding: 0px;
+	width: 10px;
+	border-left: 0px;
+	border-right: 1px solid #3f4b65;
+}
+
+.scrolltabs div.scroll_tab_inner span.scroll_tab_over, .scrolltabs div.scroll_tab_inner li.scroll_tab_over {
+	background-color: #2c3650;
+}
+
+.scrolltabs .scroll_tab_left_button {
+	min-height: 100px;
+	background-color: #374150;
+	color: #FFFFFF;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-border-radius: 3px 0 0 3px;
+	-moz-border-radius: 3px 0 0 3px;
+	border-radius: 3px 0 0 3px;
+}
+
+.scrolltabs .scroll_tab_left_button::before {
+	content: "\25C0";
+	line-height: 100px;
+	padding-left: 5px;
+}
+
+.scrolltabs .scroll_tab_left_button_over {
+	background-color: #374150;
+}
+
+.scrolltabs .scroll_tab_left_button_disabled {
+	color: #2f3846;
+	background-color: #12161d;
+	cursor: not-allowed !important;
+}
+
+.scrolltabs .scroll_tab_right_button {
+	min-height: 100px;
+	background-color: #12161d;
+	color: #FFFFFF;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-border-radius: 0 3px 3px 0;
+	-moz-border-radius: 0 3px 3px 0;
+	border-radius: 0 3px 3px 0;	
+}
+
+.scrolltabs .scroll_tab_right_button::before {
+	content: "\25B6";
+	line-height: 100px;
+	padding-left: 8px;
+}
+
+.scrolltabs .scroll_tab_right_button_over {
+	background-color: #374150;
+}
+
+.scrolltabs .scroll_tab_right_button_disabled {
+	color: #5b698e;
+	background-color: #28314a;
+}
+
+.scrolltabs div.scroll_tab_inner span.tab_selected, .scrolltabs div.scroll_tab_inner li.tab_selected {
+	color: #ecc45f;
+	background: #1d242f;
+}
+
+.scrolltabs div.scroll_tab_inner .tab-link h2 {
+	margin: 20px 0 10px 0;
+	line-height: 100%;
+}

@@ -1,0 +1,218 @@
+.commentable-container {
+  -webkit-transition: all 0.22s ease;
+  transition: all 0.22s ease;
+}
+ul.commentable-container{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ul.commentable-container li{
+  margin-bottom: 10px;
+  background: #ddd;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+ul.commentable-container li:nth-child(2n+2){
+  background: #f5f5f5;
+}
+.commentable-section {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-right: 30px;
+}
+.commentable-section img.user-pic{
+  width: 48px;
+  height: 48px;
+  float: left;
+}
+.commentable-section p{
+  margin: 0 0 0 60px;
+  min-height: 50px;
+}
+
+.side-comment {
+  padding-bottom: 20px;
+}
+.side-comment .marker {
+  width: 20px;
+  height: 18px;
+  background: #eb4343;
+  border-radius: 2px;
+  text-decoration: none;
+}
+.side-comment .marker:before,
+.side-comment .marker span {
+  content: "+";
+  position: absolute;
+  width: 20px;
+  height: 18px;
+  line-height: 16px;
+  font-size: 14px;
+  color: #FFF;
+  text-align: center;
+}
+.side-comment .marker span {
+  line-height: 20px;
+  font-size: 12px;
+}
+.side-comment .marker:after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -7px;
+  left: 5px;
+  width: 0;
+  border-width: 7px 8px 0 0;
+  border-style: solid;
+  border-color: #eb4343 transparent;
+}
+.side-comment .marker:hover,
+.side-comment.active .marker {
+  background: #4FAF62;
+}
+.side-comment.active .marker{
+  position: absolute;
+  right: -5px;
+  top: -5px;
+}
+.side-comment .marker:hover:after,
+.side-comment.active .marker:after {
+  border-color: #4FAF62 transparent;
+}
+.side-comment .comments-wrapper {
+  width: 100%;
+  z-index: 100;
+  background: #404040;
+  padding: 10px;
+  border: 1px solid #ccc;
+  height: 0;
+}
+.side-comment.active .comments-wrapper{
+ -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+  height: 100%;
+}
+
+.side-comment ul.comments li,
+.side-comment .comment-form {
+  padding: 5px;
+}
+.side-comment .comment,
+.side-comment .comment-box {
+  font-size: 13px;
+  line-height: 18px;
+  min-height: 20px;
+}
+.side-comment .author-avatar {
+  float: left;
+  width: 32px;
+  height: 32px;
+  margin: 0 10px 0 0;
+}
+.side-comment .author-avatar img {
+  width: 100%;
+  height: 100%;
+}
+.side-comment .author-name {
+  font-size: 15px;
+  line-height: 16px;
+  margin: 0 0 2px 0;
+  font-weight: 700;
+  text-decoration: none;
+  color: #222;
+  min-height: 20px;
+}
+.side-comment a.author-name:hover {
+  color: #444;
+}
+.side-comment .action-link {
+  color: #B3B3B1;
+  font-size: 13px;
+  text-decoration: none;
+}
+.side-comment .action-link:hover {
+  text-decoration: none;
+}
+.side-comment .action-link.post .post {
+  color: #89C794;
+}
+.side-comment .action-link.post .post:hover {
+  color: #468c54;
+}
+.side-comment .action-link.cancel:hover,
+.side-comment .action-link.delete:hover {
+  color: #57AD68;
+}
+.side-comment .add-comment {
+  color: #4FAF62;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 300;
+  padding: 0;
+  letter-spacing: 0.05em;
+  text-decoration: none;
+  margin-top: 10px;
+  min-height: 30px;
+}
+.side-comment .add-comment:before {
+  content: "+";
+  border: 2px solid #4FAF62;
+  border-radius: 100px;
+  width: 23px;
+  height: 23px;
+  color: #4FAF62;
+  display: block;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  float: left;
+  margin-right: 15px;
+  letter-spacing: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.side-comment .add-comment:hover {
+  text-decoration: none;
+}
+.side-comment .add-comment:hover {
+  color: #4FAF62;
+}
+.side-comment .add-comment:hover:before {
+  border-color: #4FAF62;
+  color: #4FAF62;
+}
+.side-comment .comment-box {
+  outline: none;
+  border: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  padding: 0;
+}
+.side-comment .actions {
+  margin-top: 5px;
+}
+.side-comment .actions a {
+  float: left;
+}
+.side-comment .actions .cancel:before {
+  content: '\00B7';
+  color: #B3B3B1;
+  padding: 0 5px;
+}
+@media (max-width: 768px) {
+  .side-comment .comments-wrapper {
+    width: 200px;
+  }
+  .side-comment .right-of-avatar {
+    width: 158px;
+  }
+  .side-comment .marker {
+    display: block;
+  }
+}

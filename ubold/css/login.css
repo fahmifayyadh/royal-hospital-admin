@@ -1,0 +1,435 @@
+/*************** 1. Sass Variables ***************/
+/*************** 2.Mixins ***************/
+/*************** 1. Open Sans Google Font ***************/
+@font-face {
+  font-family: 'open_sansbold';
+  src: url("../fonts/opensans/opensans-bold-webfont.woff2") format("woff2"), url("../fonts/opensans/opensans-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'open_sanslight';
+  src: url("../fonts/opensans/opensans-light-webfont.woff2") format("woff2"), url("../fonts/opensans/opensans-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'open_sansregular';
+  src: url("../fonts/opensans/opensans-regular-webfont.woff2") format("woff2"), url("../fonts/opensans/opensans-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'open_sanssemibold';
+  src: url("../fonts/opensans/opensans-semibold-webfont.woff2") format("woff2"), url("../fonts/opensans/opensans-semibold-webfont.woff") format("woff");
+  font-weight: 700;
+  font-style: normal; }
+/*************** 1. Open Sans Google Font ***************/
+@font-face {
+  font-family: 'open_sansbold';
+  src: url("../fonts/opensans/opensans-bold-webfont.woff2") format("woff2"), url("../fonts/opensans/opensans-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'open_sanslight';
+  src: url("../fonts/opensans/opensans-light-webfont.woff2") format("woff2"), url("../fonts/opensans/opensans-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'open_sansregular';
+  src: url("../fonts/opensans/opensans-regular-webfont.woff2") format("woff2"), url("../fonts/opensans/opensans-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'open_sanssemibold';
+  src: url("../fonts/opensans/opensans-semibold-webfont.woff2") format("woff2"), url("../fonts/opensans/opensans-semibold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'BalooBhaina';
+  src: url("../fonts/baloo-bhaina/BalooBhaina-Regular.ttf") format("truetype"); }
+/*************** 2. Body CSS ***************/
+html {
+  height: 100%; }
+
+body {
+  min-height: 100%;
+  position: relative; }
+
+body {
+  margin: 0;
+  padding: 0;
+  font: normal 14px 'open_sansregular', arial, sans-serif;
+  line-height: 20px;
+  color: #666666;
+  background: #000000; }
+
+a {
+  text-decoration: none; }
+  a:hover {
+    text-decoration: none; }
+
+.page-container .left-block {
+  width: 50%; }
+.page-container .right-block {
+  width: 50%;
+  background: #000000;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  padding: 60px 30px 30px 30px; }
+  .page-container .right-block .footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 30px 0;
+    text-align: center;
+    color: #3e7ba8;
+    font-size: 12px; }
+.page-container.login-page .left-block {
+  background: url("../img/login-bg.jpg") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0; }
+.page-container.signup-page .left-block {
+  background: url("../img/login-bg.jpg") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0; }
+.page-container.forgot-password-page .left-block {
+  background: url("../img/forgot-password-bg.jpg") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0; }
+.page-container.lock-page .left-block {
+  background: url("../img/lock-screen-bg.jpg") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0; }
+.page-container.lock-page .right-block {
+  background: #363344; }
+  .page-container.lock-page .right-block .footer {
+    color: #e2a0b5; }
+.page-container.error-page .left-block {
+  background: #3e7ba8;
+  background: url("../img/error-screen-bg.jpg") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0; }
+
+@media (max-width: 767px) {
+  .page-container .left-block {
+    display: none; }
+  .page-container .right-block {
+    padding: 30px 15px 15px 15px;
+    position: inherit;
+    width: 100%; }
+    .page-container .right-block .footer {
+      position: inherit; } }
+.login-wrapper {
+  position: absolute;
+  left: 50%;
+  margin-left: -150px;
+  width: 300px; }
+
+@media (max-width: 767px) {
+  .login-wrapper {
+    position: inherit;
+    left: auto;
+    margin: 20px auto; } }
+.signup-wrapper {
+  width: 80%;
+  margin: auto; }
+
+@media (max-width: 767px) {
+  .signup-wrapper {
+    width: 100%; } }
+.login-box, .signup-box {
+  background: #3e7ba8;
+  padding: 30px 30px 30px 30px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px; }
+  .login-box h3, .signup-box h3 {
+    margin: 0 0 30px 0;
+    color: #ffffff; }
+
+.form-control {
+  border: 0;
+  box-shadow: none;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  height: 40px;
+  color: #000000; }
+  .form-control:focus {
+    outline: 0;
+    border: 0;
+    box-shadow: none; }
+  .form-control::-webkit-input-placeholder {
+    color: #000000; }
+  .form-control::-moz-placeholder {
+    color: #000000; }
+  .form-control:-ms-input-placeholder {
+    color: #000000; }
+  .form-control:-moz-placeholder {
+    color: #000000; }
+
+.btn-default {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  background: #1a1a1a;
+  border: none;
+  display: block;
+  padding: 12px 15px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 10px; }
+  .btn-default:hover {
+    background: #262626;
+    color: #ffffff; }
+
+.btn-grey {
+  float: right;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  background: transparent;
+  border: none;
+  display: block;
+  padding: 5px 0;
+  font-size: 21px;
+  color: #68b4b4;
+  margin-bottom: 10px;
+  opacity: 1; }
+  .btn-grey:hover {
+    color: #3e7ba8; }
+  .btn-grey i {
+    vertical-align: middle; }
+
+.btn-primary {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  background: #ff212a;
+  background: -moz-linear-gradient(45deg, #ff212a 0%, #ff8487 100%);
+  background: -webkit-linear-gradient(45deg, #ff212a 0%, #ff8487 100%);
+  background: linear-gradient(45deg, #ff212a 0%, #ff8487 100%);
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  display: inline-block;
+  color: #ffffff;
+  margin: 50px auto 20px auto; }
+  .btn-primary:hover {
+    background: #f92333;
+    color: #ffffff;
+    opacity: 1; }
+
+p.info {
+  color: #ffffff;
+  padding: 0;
+  margin: 0 0 30px 0; }
+
+.remember a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 12px;
+  display: inline-block; }
+  .remember a:hover {
+    color: #000000; }
+
+.lock-screen-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 180px;
+  width: 300px;
+  margin-left: -150px;
+  margin-top: -90px;
+  text-align: center;
+  color: #ffffff; }
+  .lock-screen-wrapper .avatar {
+    position: relative;
+    margin: auto;
+    width: 80px;
+    margin: 10px auto; }
+    .lock-screen-wrapper .avatar img {
+      padding: 3px;
+      border: 2px solid rgba(255, 255, 255, 0.2);
+      -webkit-border-radius: 20%;
+      -moz-border-radius: 20%;
+      border-radius: 20%;
+      width: 78px; }
+    .lock-screen-wrapper .avatar .lock {
+      position: absolute;
+      top: -10px;
+      right: -10px;
+      width: 32px;
+      height: 32px;
+      background: #ba2c48;
+      -webkit-border-radius: 100%;
+      -moz-border-radius: 100%;
+      border-radius: 100%; }
+      .lock-screen-wrapper .avatar .lock i {
+        color: #ffffff;
+        line-height: 32px; }
+  .lock-screen-wrapper h3 {
+    margin: 0 0 10px 0;
+    font-size: 16px;
+    font-weight: 600; }
+
+.lock-screen-input {
+  margin: 10px auto 10px auto;
+  height: 52px;
+  text-align: center;
+  width: 300px;
+  position: relative; }
+  .lock-screen-input .form-control {
+    width: 100%;
+    height: 52px;
+    padding: 13px 5px 11px 20px;
+    font-size: 16px;
+    line-height: 52px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px; }
+  .lock-screen-input .lock-btn {
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    border: none;
+    height: 48px;
+    width: 70px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #b62b45;
+    -webkit-border-radius: 20px 30px 30px 20px;
+    -moz-border-radius: 20px 30px 30px 20px;
+    border-radius: 20px 30px 30px 20px; }
+    .lock-screen-input .lock-btn:hover, .lock-screen-input .lock-btn:focus {
+      background-color: #b62b45;
+      outline: none;
+      cursor: pointer;
+      border: none; }
+    .lock-screen-input .lock-btn i {
+      font-size: 21px;
+      vertical-align: middle;
+      line-height: 48px; }
+
+.error-screen-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 240px;
+  margin-top: -120px;
+  text-align: center;
+  color: #ffffff; }
+  .error-screen-wrapper h1 {
+    font-family: 'BalooBhaina', arial, sans-serif;
+    font-size: 150px;
+    color: #f93c4a;
+    margin: 0;
+    padding: 0;
+    line-height: 100%;
+    vertical-align: middle; }
+  .error-screen-wrapper h4 {
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    line-height: 100%; }
+
+@media (max-width: 767px) {
+  .error-screen-wrapper {
+    position: inherit;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 240px;
+    margin-top: 60px;
+    text-align: center;
+    color: #ffffff; } }
+.toggle-switch {
+  position: relative;
+  width: 40px;
+  height: 20px;
+  float: right;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  background-color: #d9d9d9;
+  overflow: hidden; }
+  .toggle-switch .check {
+    position: absolute;
+    display: block;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 6;
+    margin: 0; }
+    .toggle-switch .check:checked ~ .track {
+      box-shadow: inset 0 0 0 20px #1a1a1a; }
+    .toggle-switch .check:checked ~ .switch {
+      right: 2px;
+      left: 20px;
+      transition: 0.35s cubic-bezier(0.7, 0.1, 0.15, 0.8);
+      transition-property: left, right;
+      transition-delay: .05s, 0s; }
+  .toggle-switch .switch {
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    bottom: 2px;
+    right: 20px;
+    background-color: #ffffff;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    z-index: 1;
+    transition: 0.35s cubic-bezier(0.7, 0.1, 0.15, 0.8);
+    transition-property: left, right;
+    transition-delay: 0s, .05s; }
+  .toggle-switch .track {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    transition: 0.35s cubic-bezier(0.7, 0.1, 0.15, 0.8);
+    box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.05);
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px; }
+
+.gutter.row {
+  margin-right: -10px;
+  margin-left: -10px; }
+
+.gutter > [class^="col-"] {
+  padding-right: 10px;
+  padding-left: 10px; }
+
+/*# sourceMappingURL=login.css.map */

@@ -1,0 +1,969 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="description" content="Ubold Admin Panel" />
+		<meta name="keywords" content="Admin, Dashboard, Bootstrap3, Sass, CSS3, HTML5, Web design, UI Design, Responsive Dashboard, Responsive Admin, Admin Theme, Best Admin UI, Bootstrap Theme, Themeforest, Bootstrap" />
+		<meta name="author" content="Bootstrap Gallery" />
+		<link rel="shortcut icon" href="img/favicon.ico" />
+		<title>Ubold Admin Dashboard</title>
+		
+		<!-- Bootstrap css -->
+		<link href="css/bootstrap.min.css" rel="stylesheet" media="screen" />
+
+		<!-- Main css -->
+		<link href="css/main.css" rel="stylesheet" />
+
+		<!-- BS select -->
+		<link href="css/bs-select/bs-select.min.css" rel="stylesheet" />
+
+		<!-- Ion icons -->
+		<link href="fonts/icomoon/icomoon.css" rel="stylesheet" />
+
+		<!-- Lobipanel css -->
+		<link rel="stylesheet" href="css/lobipanel/lobipanel.css" />
+
+		<!-- Tags -->
+    <link href="css/tags/tagmanager.css" rel="stylesheet" />	
+
+    <!-- Morris CSS -->
+		<link href="css/morris/morris.css" rel="stylesheet" />
+
+		<!-- Widgets css -->
+		<link href="css/widgets.css" rel="stylesheet" />		
+
+		<!-- HTML5 shiv and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!--[if lt IE 9]>
+			<script src="js/html5shiv.js"></script>
+			<script src="js/respond.min.js"></script>
+		<![endif]-->
+
+	</head>  
+
+	<body>
+
+		<!-- Left sidebar start -->
+		<div class="vertical-nav">
+
+			<!-- Logo start -->
+			<div class="logo">
+				<img src="img/logo.png" alt="Ubold admin logo" />
+			</div>
+			<!-- Logo end -->
+
+			<!-- Live stats start -->
+			<div class="live-stats">
+				<ul id="live-stats">
+					<li>
+						<h1>52957</h1>
+						<p>Orders</p>
+					</li>
+					<li>
+						<h1>34875</h1>
+						<p>Visitors</p>
+					</li>
+				</ul>
+			</div>
+			<!-- Live stats end -->
+
+			<div id="scrollbar-nav">
+				<!-- Ubold menu start -->
+				<ul class="metisMenu">
+					<li class="current-page active">
+						<a class="has-arrow" href="#" aria-expanded="false">
+							<i class="icon-flash-outline"></i>
+							<span class="menu-item">Dashboards</span>
+						</a>
+						<ul aria-expanded="false">
+							<li>
+								<a href='index.html'>Dashboard</a>
+							</li>
+							<li>
+								<a href='dashboard2.html'>Dashboard V2</a>
+							</li>
+							<li>
+								<a href='dashboard3.html'>Dashboard V3</a>
+							</li>
+							<li>
+								<a href='dashboard4.html'>Dashboard V4</a>
+							</li>
+							<li>
+								<a href='dashboard5.html' class="sub-page">Dashboard V5</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a class="has-arrow" href="#" aria-expanded="false">
+							<i class="icon-point-of-interest"></i>
+							<span class="menu-item">Widgets</span>
+							<span class="label green-one">70</span>
+						</a>
+						<ul aria-expanded="false">
+							<li>
+									<a href='data-widgets.html'>Data Widgets</a>
+							</li>
+							<li>
+								<a href='graph-widgets.html'>Graph Widgets</a>
+							</li>
+							<li>
+								<a href='number-widgets.html'>Number Widgets</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="chat-app.html">
+							<i class="icon-message"></i>
+							<span class="menu-item">Chat App</span>
+						</a>
+					</li>
+					<li>
+						<a href="mail-app.html">
+							<i class="icon-mail5"></i>
+							<span class="menu-item">Mail App</span>
+						</a>
+					</li>
+					<li>
+						<a href="todo-app.html">
+							<i class="icon-list4"></i>
+							<span class="menu-item">Todo App</span>
+						</a>
+					</li>
+					<li>
+						<a class="has-arrow" href="#" aria-expanded="false">
+							<i class="icon-adjust2"></i>
+							<span class="menu-item">Cool Features</span>
+						</a>
+						<ul aria-expanded="false">
+							<li>
+								<a href="datepickers.html">Datepickers</a>
+							</li>
+							<li>
+								<a href="filters.html">Content Filter</a>
+							</li>
+							<li>
+								<a href='map-skins.html'>Gmap Skins</a>
+							</li>
+							<li>
+								<a href='vector-maps.html'>Vector Maps</a>
+							</li>
+						</ul>
+					</li>				
+					<li>
+						<a href="#" class="has-arrow" aria-expanded="false">
+							<i class="icon-tabs-outline"></i>
+							<span class="menu-item">Pages</span>
+							<span class="label red">7</span>
+						</a>
+						<ul aria-expanded="false">
+							<li>
+								<a href='profile.html'>Profile</a>
+							</li>
+							<li>
+								<a href='calendar.html'>Calendar</a>
+							</li>
+							<li>
+								<a href='invoice.html'>Invoice</a>
+							</li>
+							<li>
+								<a href='timeline.html'>Timeline</a>
+							</li>
+							<li>
+								<a href="pricing.html">Pricing</a>
+							</li>
+							<li>
+								<a href="search.html">Serach</a>
+							</li>
+							<li>
+								<a href="faq.html">Faq's</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a class="has-arrow" href="#" aria-expanded="false">
+							<i class="icon-chart-area-outline"></i>
+							<span class="menu-item">Graphs</span>
+						</a>
+						<ul aria-expanded="false">
+							<li>
+								<a href='c3-graphs.html'>C3 Graphs</a>
+							</li>
+							<li>
+								<a href='flot.html'>Flot</a>
+							</li>
+							<li>
+								<a href='morris.html'>Morris</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a class="has-arrow" href="#" aria-expanded="false">
+							<i class="icon-center_focus_strong"></i>
+							<span class="menu-item">Forms</span>
+						</a>
+						<ul aria-expanded="false">
+							<li>
+								<a href='form-inputs.html'>Form Inputs</a>
+							</li>
+							<li>
+								<a href='validations.html'>Validations</a>
+							</li>
+							<li>
+								<a href='editor.html'>WYSIWYG Editor</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href='gallery.html'>
+							<i class="icon-camera-outline"></i>
+							<span class="menu-item">Gallery</span>
+						</a>
+					</li>
+					<li>
+						<a class="has-arrow" href="#" aria-expanded="false">
+							<i class="icon-beaker"></i>
+							<span class="menu-item">UI Elements</span>
+							<span class="label blue">9</span>
+						</a>
+						<ul aria-expanded="false">
+							<li>
+								<a href='general-elements.html'>General Elements</a>
+							</li>
+							<li>
+								<a href='buttons.html'>Buttons</a>
+							</li>
+							<li>
+								<a href='tabs.html'>Tabs</a>
+							</li>
+							<li>
+								<a href="modals.html">Modals</a>
+							</li>
+							<li>
+								<a href="labels-badges.html">Labels &amp; Badges</a>
+							</li>
+							<li>
+								<a href='notifications.html'>Notifications</a>
+							</li>
+							<li>
+								<a href='progressbars.html'>Progress Bars</a>
+							</li>
+							<li>
+								<a href='typography.html'>Typography</a>
+							</li>
+							<li>
+								<a href='icons.html'>Icons</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a class="has-arrow" href="#" aria-expanded="false">
+							<i class="icon-layers"></i>
+							<span class="menu-item">Layouts</span>
+						</a>
+						<ul aria-expanded="false">
+							<li>
+								<a href='custom-drag.html'>Drag &amp; Drop</a>
+							</li>
+							<li>
+								<a href='fixed-layout.html'>Fixed Sidebar</a>
+							</li>
+							<li>
+								<a href='sidebar-menu-titles.html'>Sidebar Sub Titles</a>
+							</li>
+							<li>
+								<a href='panels.html'>Panels</a>
+							</li>
+							<li>
+								<a href='default.html'>Default Layout</a>
+							</li>
+							<li>
+								<a href='boxed.html'>Boxed Layout</a>
+							</li>
+							<li>
+								<a href='no-sidebar.html'>No Sidebar</a>
+							</li>
+							<li>
+								<a href='right-sidebar.html'>Right Sidebar</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a class="has-arrow" href="#" aria-expanded="false">
+							<i class="icon-warning-outline"></i>
+							<span class="menu-item">Miscellaneous</span>
+						</a>
+						<ul aria-expanded="false">
+							<li>
+								<a href='login.html'>Login</a>
+							</li>
+							<li>
+								<a href='register.html'>Register</a>
+							</li>
+							<li>
+								<a href='forgot-pwd.html'>Forgot Password</a>
+							</li>
+							<li>
+								<a href="locked-screen.html">Locked Screen</a>
+							</li>
+							<li>
+								<a href='error404.html'>Error 404</a>
+							</li>
+							<li>
+								<a href='error505.html'>Error 505</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a class="has-arrow" href="#" aria-expanded="false">
+							<i class="icon-border_all"></i>
+							<span class="menu-item">Tables</span>
+						</a>
+						<ul aria-expanded="false">
+							<li>
+								<a href='tables.html'>Tables</a>
+							</li>
+							<li>
+								<a class="has-arrow" href="#" aria-expanded="false">Datatables</a>
+								<ul aria-expanded="false">
+									<li>
+										<a href="dt-fixed-header.html">Fixed Header</a>
+									</li>
+									<li>
+										<a href="dt-copy-csv.html">Copy - CSV - Print</a>
+									</li>
+									<li>
+										<a href="dt-scroll.html">Scroll</a>
+									</li>
+									<li>
+										<a href="dt-autofill.html">Autofill</a>
+									</li>
+									<li>
+										<a href="dt-default.html">Datatable</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a class="has-arrow" href="#" aria-expanded="false">
+							<i class="icon-menu6"></i>
+							<span class="menu-item">Menu Levels</span>
+							<span class="label green">5</span>
+						</a>
+						<ul aria-expanded="false">
+							<li>
+								<a class="has-arrow" href="#" aria-expanded="false">Level 2</a>
+								<ul aria-expanded="false">
+									<li><a href="#">Level 2.1</a></li>
+									<li>
+										<a class="has-arrow" href="#" aria-expanded="false">Level 3</a>
+										<ul aria-expanded="false">
+											<li><a href="#">Level 3.1</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<a class="has-arrow" href="#" aria-expanded="false">Level 3</a>
+								<ul aria-expanded="false">
+									<li><a href="#">Level 3.1</a></li>
+									<li>
+										<a class="has-arrow" href="#" aria-expanded="false">Level 4</a>
+										<ul aria-expanded="false">
+											<li><a href="#">Level 4.1</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<!-- Ubold menu end -->
+			</div>
+
+			<!-- Package details start -->
+			<div class="pkg-btn">
+				<i class="icon-info2"></i> UboldAdmin Package <span class="text-info">(150MB)</span>
+			</div>
+			<!-- Package details end -->
+
+		</div>
+		<!-- Left sidebar end -->
+
+		<!-- Dashboard wrapper start -->
+		<div class="dashboard-wrapper">
+
+			<!-- Header start -->
+			<header>
+				<!-- Header wrapper start -->
+				<div class="header-wrapper">
+					<div class="container-fluid">
+						<div class="row gutter">
+							<div class="col-lg-7 col-md-6 col-sm-7 col-xs-10">
+								
+								<!-- Live updates start -->
+								<div class="live-updates">
+									<ul class="header-news" id="header-news">
+										<li>
+											<a href="javascript:void(0)">
+												<i class="text-danger icon-drafts"></i>
+												<span>12 emails from Mark Willams. Reply now!</span>
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0)">
+												<i class="text-info icon-shopping-basket"></i>
+												<span>10 new features updated successfully. Buy now!</span>
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0)">
+												<i class="text-success icon-warning3"></i>
+												<span>The media folder is created successfully.</span>
+											</a>
+										</li>
+									</ul>
+								</div>
+								<!-- Live updates end -->
+
+							</div>
+							<div class="col-lg-5 col-md-6 col-sm-5 col-xs-2">
+								<!-- Notification / Messages Widget -->
+								<div class="pull-right">
+									<ul id="header-nav" class="clearfix">
+										<li class="list-box dropdown">
+											<a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">
+												<i class="icon-calender-outline"></i>
+											</a>
+											<span class="info-label yellow-bg">3</span>
+											<ul class="dropdown-menu">
+											</ul>
+										</li>
+										<li class="list-box dropdown">
+											<a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">
+												<i class="icon-messages"></i>
+											</a>
+											<span class="info-label sea-green-bg">2</span>
+											<ul class="dropdown-menu">
+											</ul>
+										</li>
+										<li class="list-box dropdown">
+											<a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">
+												<i class="icon-archive"></i>
+											</a>
+											<span class="info-label red-bg">7</span>
+											<ul class="dropdown-menu">
+											</ul>
+										</li>
+										<li class="list-box user-admin dropdown">
+											<a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+												<i class="icon-account_circle"></i>
+											</a>
+											<div class="admin-details">
+												<div class="name">admin@Ubold.com</div>
+												<div class="designation">Admin</div>
+											</div>
+											<ul class="dropdown-menu">
+												<li class="dropdown-content">
+													<a href="#"><i class="icon-warning2"></i>Update Password<br><span>Your password will expire in 7 days.</span></a>
+													<a href="profile.html">Edit Profile</a>
+													<a href="forgot-pwd.html">Change Password</a>
+													<a href="profile.html">Settings</a>
+													<a href="login.html">Logout</a>
+												</li>
+											</ul>
+										</li>
+										<li class="list-box">
+											<!-- Toggle Navigations for Small Screens -->
+											<div class="mobile-menu">
+												<i class="icon-menu6"></i>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Header wrapper end -->
+			</header>
+			<!-- Header end -->
+
+			<!-- Top bar start -->
+			<div class="top-bar clearfix">
+				<!-- Row start -->
+				<div class="row gutter">
+					<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+						<div class="page-icon">
+							<i class="icon-flash-outline"></i>
+						</div>
+						<div class="page-title">
+							<h4>Colorful Dashboard</h4>
+							<ol class="breadcrumb sm">
+								<li>Welcome to Ubold Admin Template</li>
+							</ol>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+						<!-- Custom search filter start -->
+						<div class="custom-search">
+							<select id="UboldSearch" class="selectpicker show-tick">
+								<optgroup label="Select date">
+									<option data-subtext="- Live search">Filter by date</option>
+									<option>Oveall Sales</option>
+									<option data-subtext="Sale">Today's </option>
+									<option data-subtext="Sale">Yesterday's </option>
+									<option data-subtext="Sale">Last week's </option>
+									<option data-subtext="Sale">Last 15 day's </option>
+									<option data-subtext="Sale">Last month's </option>
+								</optgroup>
+								<optgroup label="Search by location">
+									<option>United States</option>
+									<option>United Kingdom</option>
+									<option>India</option>
+									<option>Turkey</option>
+									<option>Portugal</option>
+								</optgroup>
+							</select>
+						</div>
+						<!-- Custom search filter end -->
+					</div>
+				</div>
+				<!-- Row end -->
+			</div>
+			<!-- Top bar end -->
+
+			<!-- Main container start -->
+			<div class="main-container">
+				<!-- Container fluid start -->
+				<div class="container-fluid">
+
+					<!-- Row start -->
+					<div class="row gutter">
+						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+							<div class="simple-widget red">
+								<div class="growth shadow">+12</div>
+								<h2 class="text-white">$97,521</h2>
+								<p class="text-white">Sales</p>
+								<div class="progress progress-sm plain">
+									<div class="progress-bar" role="progressbar" aria-valuenow="32" aria-valuemin="0" aria-valuemax="100" style="width: 32%">
+										<span class="sr-only">32% Complete (success)</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+							<div class="simple-widget blue">
+								<div class="growth blue shadow">-3</div>
+								<h2 class="text-white">$62,417</h2>
+								<p class="text-white">Expenses</p>
+								<div class="progress progress-sm plain">
+									<div class="progress-bar" role="progressbar" aria-valuenow="48" aria-valuemin="0" aria-valuemax="100" style="width: 48%">
+										<span class="sr-only">48% Complete (info)</span>
+									</div>
+								</div>									
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+							<div class="simple-widget green">
+								<div class="growth green shadow">+25</div>
+								<h2 class="text-white">83,421</h2>
+								<p class="text-white">Visits</p>
+								<div class="progress progress-sm plain">
+									<div class="progress-bar" role="progressbar" aria-valuenow="76" aria-valuemin="0" aria-valuemax="100" style="width: 76%">
+										<span class="sr-only">76% Complete (success)</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+							<div class="simple-widget fb">
+								<div class="growth fb shadow">+22</div>
+								<h2 class="text-white">5429</h2>
+								<p class="text-white">Orders</p>
+								<div class="progress progress-sm plain">
+									<div class="progress-bar" role="progressbar" aria-valuenow="76" aria-valuemin="0" aria-valuemax="100" style="width: 76%">
+										<span class="sr-only">76% Complete (success)</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Row end -->
+
+					<!-- Row start -->
+					<div class="row gutter">
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+							<div class="panel lobipanel-custom">
+								<div class="panel-header">
+									<h4 class="panel-title">Statistics</h4>
+								</div>
+								<div class="tags-container">
+									<input type="text" autocomplete="off" name="tags" placeholder="Add new tag ..." class="tm-input tm-tag-plain tm-input-01" data-original-title="" />
+								</div>
+								<div class="panel-body">
+									<div id="areaChart" class="chart-height"></div>
+									<div class="row gutter">
+										<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+											<div class="graph-stats center-text">
+												<div class="info-block">
+													<h3 class="text-danger">$10,319 <span href="#">Today</span></h3>
+													<p>Prev. $0.00</p>
+												</div>
+											</div>
+										</div>
+										<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+											<div class="graph-stats center-text">
+												<div class="info-block">
+													<h3 class="text-info">$26,415 <span href="#">Week</span></h3>
+													<p>Prev. $0.00</p>
+												</div>
+											</div>
+										</div>
+										<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+											<div class="graph-stats center-text">
+												<div class="info-block">
+													<h3 class="text-success">$98,973 <span href="#">Month</span></h3>
+													<p>Prev. $0.00</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Row end -->
+
+					<!-- Row start -->
+					<div class="row gutter">
+						<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+							<div class="panel default">
+								<div class="panel-body">
+									<div id="world-map-markers" class="chart-height5"></div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+							<div class="panel default">
+								<div class="panel-body violet-one-bg">
+									<ul class="month-sales">
+										<li class="clearfix">
+											<div class="month-type" id="saleA"></div>
+											<div class="sale-info">
+												<h3 class="text-white">18<sup>k</sup><i class="icon-chevron-up text-warning"></i></h3>
+												<p class="text-white">Overall Sales</p>
+											</div>
+										</li>
+										<li class="clearfix">
+											<div class="month-type" id="saleB"></div>
+											<div class="sale-info">
+												<h3 class="text-white">12<sup>k</sup><i class="icon-chevron-up text-danger"></i></h3>
+												<p class="text-white">Overall Expenses</p>
+											</div>
+										</li>
+										<li class="clearfix">
+											<div class="month-type" id="saleC"></div>
+											<div class="sale-info">
+												<h3 class="text-white">10<sup>k</sup><i class="icon-chevron-down text-danger"></i></h3>
+												<p class="text-white">Overall Income</p>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Row end -->
+
+					<!-- Row start -->
+					<div class="row gutter">
+						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+							<div class="weather-widget cloudy equal-padding">
+								<h3>Showers</h3>
+								<p>Sunday 06:00 AM</p>
+								<h1>12°</h1>
+								<small>London, UK</small>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+							<div class="weather-widget rainy equal-padding">
+								<h3>Rainy</h3>
+								<p>Sunday 07:00 AM</p>
+								<h1>7°</h1>
+								<small>Berlin, Germany</small>
+							</div>
+						</div>
+
+						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+							<div class="weather-widget sunny equal-padding">
+								<h3>Sunny</h3>
+								<p>Sunday 10:00 AM</p>
+								<h1>25°</h1>
+								<small>Los Angeles, CA, USA</small>
+							</div>
+						</div>
+					</div>
+					<!-- Row end -->
+
+					<!-- Row start -->
+					<div class="row gutter">
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+							<div class="info-graph-widget fb-bg">
+								<h2>Overall Sales</h2>
+								<h5>24% lower than last month: -1260</h5>
+								<div class="row gutter">
+									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+										<div class="small-graph">
+											<span id="lineFour"></span>
+										</div>
+										<p class="text-warning"><i class="icon-chevron-up"></i>1.89% <small>1560</small></p>
+										<p class="uppercase">Daily</p>
+									</div>
+									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+										<div class="small-graph">
+											<span id="lineFive"></span>
+										</div>
+										<p class="text-success"><i class="icon-chevron-up"></i>9.33% <small>4568</small></p>
+										<p class="uppercase">Weekly</p>
+									</div>
+									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+										<div class="small-graph">
+											<span id="lineSix"></span>
+										</div>
+										<p class="text-pink"><i class="icon-chevron-down"></i>6.54% <small>9280</small></p>
+										<p class="uppercase">Monthly</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+							<div class="info-graph-widget primary-bg">
+								<h2>Overall Income</h2>
+								<h5>37% higher than last month: +2398</h5>
+								<div class="row gutter">
+									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+										<div class="small-graph">
+											<span id="lineSeven"></span>
+										</div>
+										<p class="text-warning"><i class="icon-chevron-up"></i>2.19% <small>1267</small></p>
+										<p class="uppercase">Daily</p>
+									</div>
+									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+										<div class="small-graph">
+											<span id="lineEight"></span>
+										</div>
+										<p class="text-success"><i class="icon-chevron-up"></i>5.98% <small>3298</small></p>
+										<p class="uppercase">Weekly</p>
+									</div>
+									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+										<div class="small-graph">
+											<span id="lineNine"></span>
+										</div>
+										<p class="text-pink"><i class="icon-chevron-down"></i>7.62% <small>7751</small></p>
+										<p class="uppercase">Monthly</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Row end -->
+
+					<!-- Row start -->
+					<div class="row gutter">
+						<div class="col-lg-8 col-md-8 col-sm-6 col-xs-12">
+							<!-- Panel start -->
+							<div class="panel default lobipanel-fullscreen">
+								<div class="panel-body">
+									<ul class="product-activity">
+										<li class="product-list clearfix">
+											<div class="product-time">
+												<span class="badge badge-info">New</span>
+												<p class="date center-text">02:30 pm</p>
+											</div>
+											<div class="product-info">
+												<div class="row gutter">
+													<div class="col-lg-8 col-md-7 col-sm-9 col-xs-12">
+														<h5>Ubold - Admin Dashboard</h5>
+														<p>by Luke Etheridge</p>
+													</div>
+													<div class="col-lg-4 col-md-5 col-sm-3 col-xs-12">
+														<div class="progress progress-sm no-margin">
+															<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="49" aria-valuemin="0" aria-valuemax="100" style="width: 49%">
+																<span class="sr-only">49% Complete (success)</span>
+															</div>
+														</div>
+														<p>(225 of 700gb)</p>
+													</div>
+												</div>
+											</div>
+										</li>
+										<li class="product-list clearfix">
+											<div class="product-time">
+												<span class="badge badge-warning">Task</span>
+												<p class="date center-text">11:30 am</p>
+											</div>
+											<div class="product-info">
+												<div class="row gutter">
+													<div class="col-lg-8 col-md-7 col-sm-9 col-xs-12">
+														<h5>user_Profile.php</h5>
+														<p>by Rovane Durso</p>
+													</div>
+													<div class="col-lg-4 col-md-5 col-sm-3 col-xs-12">
+														<a href="#" class="btn btn-default btn-transparent disabled"><i class="icon-new-message"></i></a>
+													</div>
+												</div>
+											</div>
+										</li>
+										<li class="product-list clearfix active">
+											<div class="product-time">
+												<span class="badge badge-danger">Closed</span>
+												<p class="date center-text">12:50 pm</p>
+											</div>
+											<div class="product-info">
+												<div class="row gutter">
+													<div class="col-lg-8 col-md-7 col-sm-9 col-xs-12">
+														<h5>Material Design Kit</h5>
+														<p>by Cosmin Capitanu</p>
+													</div>
+													<div class="col-lg-4 col-md-5 col-sm-3 col-xs-12">
+														<a href="#" class="btn btn-danger"><i class="icon-time-slot"></i></a>
+													</div>
+												</div>
+											</div>
+										</li>
+										<li class="product-list clearfix">
+											<div class="product-time">
+												<span class="badge badge-success">Login</span>
+												<p class="date center-text">04:55 pm</p>
+											</div>
+											<div class="product-info">
+												<div class="row gutter">
+													<div class="col-lg-8 col-md-7 col-sm-9 col-xs-12">
+														<h5>Holographic cards</h5>
+														<p>by Eddie Lobanovskiy</p>
+													</div>
+													<div class="col-lg-4 col-md-5 col-sm-3 col-xs-12">
+														<a href="#" class="btn btn-info"><i class="icon-new-message"></i></a>
+													</div>
+												</div>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<!-- Panel end -->
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+							<div class="widget purple-bg">
+								<h2>Statistics</h2>
+								<ul class="stats">
+									<li>
+										<span class="icon">
+											<i class="icon-shopping-basket"></i>
+										</span>
+										New item sold.
+									</li>
+									<li>
+										<span class="icon">
+											<i class="icon-fire"></i>
+										</span>
+										A new ticket<span class="label label-info arrowed">Open</span>
+									</li>
+									<li>
+										<span class="icon">
+											<i class="icon-camera"></i>
+										</span>
+										Thanks Sarah :)
+									</li>
+									<li>
+										<span class="icon">
+											<i class="icon-lightbulb"></i>
+										</span>
+										That's A great idea!<span class="label label-pink arrowed">Sale</span>
+									</li>
+									<li>
+										<span class="icon">
+											<i class="icon-emoji-happy"></i>
+										</span>
+										Tell us what you think.<span class="label label-success arrowed">Idea</span>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<!-- Row end -->
+
+				</div>
+				<!-- Container fluid end -->
+			</div>
+			<!-- Main container end -->
+
+			<!-- Footer start -->
+			<footer class="footer">
+				Copyright Ubold Admin <span>2017</span>.
+			</footer>
+			<!-- Footer end -->
+		</div>
+		<!-- Dashboard wrapper ends -->
+
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="js/jquery.js"></script>
+
+		<!-- jQuery ui -->
+		<script src="js/jquery-ui.min.js"></script>
+
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="js/bootstrap.min.js"></script>
+
+		<!-- Menu js -->
+		<script src="js/nav/metisMenu.js"></script>
+
+		<!-- jquery scrollup -->
+		<script src="js/scrollup/jquery.scrollUp.js"></script>
+
+		<!-- News ticker -->
+		<script src="js/news-ticker/jquery.newsTicker.js"></script>
+
+		<!-- BS select -->
+		<script src="js/bs-select/bs-select.min.js"></script>
+		<script src="js/bs-select/bs-select-custom.js"></script>
+
+		<!-- Scrollbar -->
+		<script src="js/slim-scroll/jquery.slimscroll.min.js"></script>
+		<script src="js/slim-scroll/custom-scrollbar.js"></script>
+
+		<!-- Lobipanel -->
+		<script src="js/lobipanel/lobipanel.js"></script>
+		<script src="js/lobipanel/lobipanel-custom.js"></script>
+
+		<!-- Sparkline graphs -->
+		<script src="js/sparkline/sparkline-retina.js"></script>
+		<script src="js/sparkline/custom-sparkline.js"></script>
+
+		<!-- Tag Manager -->
+		<script src="js/tags/tagmanager.js"></script>
+		<script src="js/tags/tagmanager-custom.js"></script>
+
+		<!-- Morris Graphs -->
+		<script src="js/morris/raphael-min.js"></script>
+		<script src="js/morris/morris.min.js"></script>
+		<script src="js/morris/areaChartCustom.js"></script>
+
+		<!-- Circliful js -->
+		<script src="js/circliful/circliful.min.js"></script>
+		<script src="js/circliful/circliful.custom.js"></script>	
+
+		<!-- JVector Map -->
+		<script src="js/jvectormap/jquery-jvectormap-2.0.3.min.js"></script>
+		<script src="js/jvectormap/world-mill-en.js"></script>
+		<script src="js/jvectormap/gdp-data.js"></script>
+
+		<!-- Custom Maps -->
+		<script src="js/jvectormap/custom/world-map-markers2.js"></script>
+		<!-- Custom js -->
+		<script src="js/common.js"></script>
+
+	</body>
+</html>
